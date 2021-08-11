@@ -4,47 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/reset.css"/>
+    <link rel="stylesheet" href="assets/styles.css"/>
     <title>My Portfolio - Mason Wallis</title>
 </head>
 
 <body>
-    <div class = 'diagonal'></div>
-    <header>
-        <h1>Mason Wallis</h1> 
-        <h3 id='intro'>&lt;Full Stack Web Developer | Austin, TX&gt;</h3>
-    </header>
-    <nav>
-       <a href='#about'>About Me</a>
-       <a href='#work'>My Work</a>
-       <a href='#contact'>Let's Get In Touch</a>
-    </nav>
-    <section class='about'>
-        <img src='images/headshot.png' alt='A picture of me' id='headshot'>
-        <div class='introText'>
-            <h1 class='aboutMe'>&lt;Hey there, I'm Mason&gt;</h1>
-            <p>I'm an aspiring web developer with a background in marketing and sales. My goal is to help you<br>
-            perfect your vision and website idea, then craft it to your specifications.</p>
-            <br>
-            <p>I'm currently seeking entry-level projects to take on to build my resumé. I'm fluent in HTML5, CSS3, basic Javascript, and basic Python.</p>
+    <container>
+        <div class = 'diagonal'></div>
+        <div class="row">
+            <div class="col-lg-6">
+                <header>
+                    <h1>Mason Wallis</h1> 
+                    <h3 id='intro'>&lt;Full Stack Web Developer | Austin, TX&gt;</h3>
+                </header>
+            </div>
+        </div>
+    </container>
+    <container>
+        <div class ="row">
+            <div class="col-md-4"></div>
+            <div class = "col-md-8">
+                <nav>
+                    <button href='#about'><b>About Me</b></button>
+                    <button href='#myWork'><b>My Work</b></button>
+                    <button href='#contact'><b>Contact Me</b></button>
+                </nav>
+            </div>
+        </div>
+    </container>
+    <section id='about'>
+        <div class ="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <img src='assets/images/headshot.png' class="img-fluid" alt='A picture of me' id='headshot'>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <article class='introText'>
+                    <h1 class='aboutMe'>&lt;Hey There, I'm Mason&gt;</h1>
+                    <p>I'm an aspiring web developer with a background in marketing and sales. My goal is to help you<br>
+                    perfect your vision and website idea, then craft it to your specifications.</p>
+                    <br>
+                    <p>I'm currently taking on entry-level projects to build up my resumé. I'm fluent in HTML5, CSS3, Javascript, Bootstrap, JQuery, NodeJS, SQL, MySQL and Python.</p>  
+                </article>
+            </div>
         </div>        
     </section>
-    <section class='work'>
-        <h1>&lt;My Work&gt;</h1>
-        <p>These are just a few of the many projects I've had the pleasure of working on:</p>
+    </div>
+    </div>
+    <section id='myWork'>
+        <h1 class = "workTitle">&lt;My Work&gt;</h1>
+        <p id = "workP">These are just a few of the many projects I've had the pleasure of working on:</p>
         <div class='myWork'>
-            <!-- These are just placeholders. hrefs are meant to demonstrate how they would link to their 
-            respective deployed applications  -->
-            <a href = 'https://github.com/mwallis5110/My_Portfolio'><img src='images/csscheatsheet.PNG' id='sample1' alt='Placeholder for sample 1'></a>
-            <a href = 'https://github.com/mwallis5110/class_work/tree/master/02-Advanced-CSS/01-Activities/28-Stu_Mini-Project'><img src='images/passwordPic.PNG' id='sample2' alt='Placeholder for sample 2'></a>
-            <a href = 'https://mwallis5110.github.io/My_Portfolio/'><img src='images/PortfolioHTML.PNG'  id='sample3' alt='Placeholder for sample 3'></a>
-            <a href = 'https://mwallis5110.github.io/My_Portfolio/'><img src='images/PortfolioCSS.PNG' id='sample4' alt='Placeholder for sample 4'></a>
+            <!-- <div class="descriptionPopup"> SAVE FOR LATER-->
+                <!-- <span class="descriptionText">Pet Seeker</span> -->
+                <a href = 'https://github.com/mwallis5110/Sous-Chef'><img src='assets/images/sous-chef.PNG' class = 'img-fluid.max-width: 90%' id='sample1' alt='Sous Chef project'></a>
+                <!-- <span class="linkText" a href="https://github.com/brandonnorsworthy/pet-seeker">Repository |  href="https://brandonnorsworthy.github.io/pet-seeker/">Deployed Site</a></span> -->
+            <!-- </div>        -->
+            <a href = 'https://github.com/mwallis5110/pet-seeker'><img src='assets/images/pet-seeker.PNG' id='sample2' alt='Pet Seeker project'></a>
+            <a href = 'https://mwallis5110.github.io/Javascript_Quiz/'><img src='assets/images/code_quiz.PNG'  id='sample3' alt='Javascript quiz homework'></a>
+            <a href = 'https://mwallis5110.github.io/CSS_Cheatsheet/'><img src='assets/images/css_cheatsheet.PNG' id='sample4' alt='CSS cheathseet project'></a>
         </div>   
     </section>
-    <footer class='contact'>
+    <container>
+    <footer id='contact'>
         <h2>&lt;Let's Get In Touch&gt;</h2>
-        <h4><a href='https://www.linkedin.com/in/masonwallis/'>LinkedIn</a></h4>
-        <h4><a href='https://github.com/mwallis5110'>Github</a></h4>
+        <!-- <div class="text-center"> -->
+            <div class ="row">
+                <div class="col-md-3">
+                    <h4><a href='https://www.linkedin.com/in/masonwallis/'>LinkedIn</a></h4>
+                </div>
+                <div class="col-md-3">
+                    <h4><a href='https://github.com/mwallis5110'>Github</a></h4>
+                </div>
+                <div class="col-md-3">
+                    <h4><a href="assets/images/Mason_Wallis_Resume.pdf" download>My Resumé</a></h4>
+                </div>
+                <div class="col-md-3">    
+                    <h4><a href = "mailto: mwallis5110@gmail.com">Email Me</a></h4>
+                </div>    
+            </div>
+        </div>
     </footer>
+</container>
 </body>
+<script src="script.js"></script>
 </html> 
