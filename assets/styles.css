@@ -5,7 +5,7 @@ body {
   background-image: url("images/background2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%; 
+  background-size: 100%;
 }
 
 header {
@@ -21,7 +21,6 @@ h1 {
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
   font-size: 55px;
-
 }
 
 .diagonal {
@@ -40,10 +39,10 @@ h1 {
 nav {
   position: relative;
   right: 30px;
-  bottom: 50px;
+  bottom: 60px;
   float: right;
-  height: 40px;
-  width: 75%;
+  height: 20px;
+  /* width: 75%; */
   font-size: 25px;
   border-radius: 10px 0px 0px 10px;
 }
@@ -51,7 +50,8 @@ nav {
 /* Navigation bar buttons */
 
 nav button {
-  padding: 5%;
+  padding: 25px;
+  margin: 30px;
   color: #880808;
   font-size: 30px;
   text-decoration: none;
@@ -70,19 +70,18 @@ nav button:hover {
   transition: 0.5s ease-out;
 }
 
-
 p {
   position: relative;
   right: 100px;
   top: 150px;
   font-size: 25px;
   font-weight: bold;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   line-height: 1.4;
   color: white;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black,
     1px 1px 0 black;
-  background: rgb(105, 105, 105, 0.4); 
+  background: rgb(105, 105, 105, 0.4);
 }
 
 .aboutMe {
@@ -94,12 +93,12 @@ p {
 
 #headshot {
   position: relative;
-  height: 500px;
+  /* height: 500px; */
   float: left;
   top: 80px;
   left: 90px;
   border-radius: 50px;
-  min-width: 400px;
+  /* min-width: 400px; */
 }
 
 .workTitle {
@@ -120,21 +119,19 @@ p {
   border-radius: 20px;
   margin-bottom: 30px;
 }
-/* 
+
 #sample2,
 #sample3,
-#sample4 { */
-  /* height: 400px;
+#sample4 {
+  width: 100%;
+  height: 100%;
   position: relative;
-  border: 3px solid black;
-  
-  transform: scale(300px, 300px);
+  margin: 30px;
   border-radius: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; */
-/* } */
+}
 
 /* Popup container
 .descriptionPopup {
@@ -164,14 +161,14 @@ p {
 
 /* } */
 
-#contact {
+.contact {
   font-size: 20px;
   background: linear-gradient(180deg, black 2%, white);
   padding-bottom: 50px;
   width: 100%;
 }
 
-#contact h2 {
+.contact h2 {
   padding-top: 40px;
   font-size: 45px;
   font-family: "Special Elite";
@@ -180,16 +177,17 @@ p {
     2px 2px 0 black;
 }
 
-#contact a {
+.contact a {
   position: relative;
   color: #880808;
   text-decoration: none;
   font-size: 30px;
   font-weight: bold;
   top: 20px;
+  padding: 20px;
 }
 
-#contact a:hover {
+.contact a:hover {
   color: white;
   background-color: #d21404;
   border-radius: 30px;
@@ -198,5 +196,38 @@ p {
   padding: 20px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (max-width: 1400px) {
+  nav {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    width: 90%;
+  }
+
+  nav button {
+    left: 55px;
+    padding: 15px;
+    
+  }
+
+  .contact a {
+    padding: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+  
+}
+
+@media screen and (min-width: 576px) {
 }
