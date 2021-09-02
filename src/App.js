@@ -1,12 +1,14 @@
-import React from "react";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import Footer from "./components/Footer";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
+import React, { useState } from "react";
+import Navigation from "./components/Navigation";
+import TopNavBar from "./components/NavBar";
 
-function App() {
-  const []
-}
+export default function App() {
+    const [currentPage, setCurrentPage] = useState(2);
 
-export default App;
+  return (
+    <div>
+        <TopNavBar setCurrentPage = {setCurrentPage} />
+        <Navigation currentPage = {currentPage} />
+    </div>
+  )
+};

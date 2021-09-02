@@ -1,17 +1,19 @@
 import React from "react";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
-export default function NavBar() {
-    return (
-        <div className="container-fluid">
-        <div className="row">
-            <div className="col-lg-12">
-                <nav>
-                    <button href='#about'><b>About Me</b></button>
-                    <button href='#myWork'><b>My Work</b></button>
-                    <button href='#contact'><b>Contact Me</b></button>
-                </nav>
-            </div>
-        </div>
-    </div>
-    )
-};
+
+export default function TopNavBar(props) {
+  return (
+    <Navbar bg="light">
+      <Container>
+        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link onClick={() => props.setCurrentPage(1)}>About Me</Nav.Link>
+          <Nav.Link onClick={() => props.setCurrentPage(2)}>
+            My Projects
+          </Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+  );
+}

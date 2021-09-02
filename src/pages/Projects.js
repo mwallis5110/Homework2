@@ -1,9 +1,13 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function Projects() {
     return (
       <div className="container">
+        <Header />
+        {/* <NavBar /> */}
         <h1>My Work</h1>
         <p>Something something look what i did</p>
 
@@ -91,7 +95,7 @@ export default function Projects() {
           </Card.Body>
         </Card>
 
-        
+        <Footer />
       </div> //Bottom container div
     );
 }
