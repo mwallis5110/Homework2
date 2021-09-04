@@ -1,28 +1,33 @@
 nav {
   position: relative;
-  right: 30px;
-  bottom: 60px;
-  float: right;
-  height: 20px;
+  text-align:center;
   font-size: 35px;
   border-radius: 10px 0px 0px 10px;
 }
 
-.nav-links {
-  padding: 25px;
-  margin: 30px;
+.redButton {
+  display: flex;
+  flex-direction: row;
   color: #880808;
   font-size: 30px;
   text-decoration: none;
   background: none;
-  border: none;
-  position: relative;
+  /* border: none; */
+  /* position: relative; */
 }
 
-nav button:hover {
+.nav-link:hover {
   color: white;
   background-color: #d21404;
-  border-radius: 30px;
+  border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;
+}
+
+.nav-link {
+  margin-right: 20px;
+  margin-left: 20px;
+  /* padding-left: 20px;
+  padding-right: 50px; */
+  
 }
