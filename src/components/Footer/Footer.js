@@ -1,14 +1,13 @@
 import React from "react";
-import "./Footer.css"
 import { Row, Col } from "react-bootstrap";
-
+import "./Footer.css"
 
 export default function Footer() {
   return (
     <container>
       <footer className="contact">
         <h2 className="contactMe">Contact Me</h2>
-        <Row>
+        <Row className="contactLinks">
           <Col sm={12} lg={6} xl={3}>
             <h4>
               <a href="https://www.linkedin.com/in/masonwallis/">LinkedIn</a>

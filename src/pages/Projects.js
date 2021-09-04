@@ -1,6 +1,8 @@
 import React from "react";
 import Chef from "../images/sous-chef.PNG";
 import { Card, CardImg, Row, Col } from "react-bootstrap";
+import "./pages.css";
+
 
 export default function Projects() {
   return (

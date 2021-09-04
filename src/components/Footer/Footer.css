@@ -1,5 +1,5 @@
 footer {
-  font-size: 200%;
+  padding-bottom: 30px;
   padding-left: 40px;
   padding-top: 100px;
   background: linear-gradient(184deg, white 40%, black);
@@ -7,19 +7,23 @@ footer {
 
 .contactMe {
   text-align: center;
-  font-size: 150%;
+  font-size: 300%;
   margin-bottom: 25px;
   font-family: "Special Elite";
 }
 
-h4 {
+footer h4 {
+    text-decoration: none;
   text-align: center;
-  font-size: 35px;
-  color: black;
-  margin-bottom: 30px;  
+  font-size: 25px;
+  margin-right: 80px;
+  margin-left: 50px;
+  color: #880808;
+  font-weight: bold;
+  font-family: "Merriweather", serif;  
 }
 
-h4:hover {
+footer h4:hover {
   color: white;
   background-color: #d21404;
   border-radius: 50px;
