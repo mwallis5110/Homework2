@@ -1,6 +1,5 @@
 nav {
-  position: relative;
-  width: 50%;
+  position: absolute;
   margin: auto;
 }
 
@@ -10,13 +9,16 @@ nav {
   font-size: 30px;
 }
 
-.nav-link {
+#link1, #link2 {
   font-size: 35px;
-  margin-right: 160px;
-  color: black;  
+  margin-right: 80px;
+  margin-left: 50px;
+  color: #880808;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
 }
 
-.nav-link:hover {
+#link1:hover, #link2:hover {
   color: white;
   background-color: #d21404;
   border-radius: 50px;

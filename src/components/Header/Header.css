@@ -1,9 +1,9 @@
 header {
   text-align: left;
-  font-size: 200%;
   padding-left: 40px;
   padding-top: 50px;
   font-family: "Special Elite";
+  background: linear-gradient(4deg, white 40%, black);
 }
 
 header h1 {
@@ -11,17 +11,4 @@ header h1 {
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
   font-size: 55px;
-}
-
-.diagonal {
-  content: "";
-  display: block;
-  background: linear-gradient(180deg, black 40%, white);
-  width: 115%;
-  height: 420px;
-  position: absolute;
-  left: -10%;
-  top: -20%;
-  transform: rotate(4deg);
-  z-index: -1;
 }

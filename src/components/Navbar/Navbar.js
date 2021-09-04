@@ -7,8 +7,8 @@ export default function TopNavbar(props) {
     <Navbar className="light">
       <Container>
         <Nav className="me-auto" class="redButton">
-          <Nav.Link onClick={() => props.setCurrentPage(1)}>About Me</Nav.Link>
-          <Nav.Link onClick={() => props.setCurrentPage(2)}>
+          <Nav.Link id="link1" onClick={() => props.setCurrentPage(1)}>About Me</Nav.Link>
+          <Nav.Link id="link2" onClick={() => props.setCurrentPage(2)}>
             My Projects
           </Nav.Link>
         </Nav>
