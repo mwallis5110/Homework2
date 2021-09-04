@@ -1,19 +1,19 @@
 nav {
   position: relative;
-  text-align:center;
-  font-size: 35px;
-  border-radius: 10px 0px 0px 10px;
+  width: 50%;
+  margin: auto;
 }
 
 .redButton {
   display: flex;
   flex-direction: row;
-  color: #880808;
   font-size: 30px;
-  text-decoration: none;
-  background: none;
-  /* border: none; */
-  /* position: relative; */
+}
+
+.nav-link {
+  font-size: 35px;
+  margin-right: 160px;
+  color: black;  
 }
 
 .nav-link:hover {
@@ -22,12 +22,4 @@ nav {
   border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;
-}
-
-.nav-link {
-  margin-right: 20px;
-  margin-left: 20px;
-  /* padding-left: 20px;
-  padding-right: 50px; */
-  
 }

@@ -1,0 +1,13 @@
+.nav-link {
+  font-size: 35px;
+  margin-right: 50px;
+  color: black;  
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #d21404;
+  border-radius: 50px;
+  opacity: 1;
+  transition: 0.5s ease-out;
+}

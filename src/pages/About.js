@@ -1,4 +1,5 @@
 import React from "react";
+import "./pages.css";
 import Headshot from "../images/Headshot2.png";
 import { Row, Col } from "react-bootstrap";
 
@@ -8,7 +9,7 @@ export default function About() {
         <h1 className="aboutMe">&lt;Hey There, I'm Mason&gt;</h1>
         <Row>
         <Col sm={12} lg={6}>
-        <img src={Headshot} alt="A pic of me" rounded/> 
+        <img src={Headshot} class="headshot" alt="A pic of me" rounded/> 
         </Col>
         <Col sm={12} lg={6}>
         <p>I'm an aspiring web developer with a background in marketing and sales. 
