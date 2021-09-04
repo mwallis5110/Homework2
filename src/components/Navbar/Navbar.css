@@ -8,7 +8,7 @@ nav {
   border-radius: 10px 0px 0px 10px;
 }
 
-nav button {
+.nav-links {
   padding: 25px;
   margin: 30px;
   color: #880808;
