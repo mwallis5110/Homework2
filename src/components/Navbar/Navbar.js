@@ -1,13 +1,12 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
+import "./Navbar.css";
 
-
-export default function TopNavBar(props) {
+export default function TopNavbar(props) {
   return (
-    <Navbar bg="light">
+    <Navbar className="light">
       <Container>
-        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-        <Nav className="me-auto">
+        <Nav className="me-auto" class="redButton">
           <Nav.Link onClick={() => props.setCurrentPage(1)}>About Me</Nav.Link>
           <Nav.Link onClick={() => props.setCurrentPage(2)}>
             My Projects

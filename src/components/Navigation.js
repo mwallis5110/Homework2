@@ -4,9 +4,9 @@ import Projects from '../pages/Projects';
 
 function Navigation(props) {
     function displayCurrentPage() {
-      if (props.currentPage == 1) {
+      if (props.currentPage === 1) {
         return <About />;
-      } else if (props.currentPage == 2) {
+      } else if (props.currentPage === 2) {
         return <Projects />;
       }
     }    
