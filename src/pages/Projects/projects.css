@@ -1,0 +1,20 @@
+.row {
+    padding: 25px;
+}
+
+h1 {
+  position: relative;
+  top: 25px;
+  font-family: "Special Elite";
+  font-size: 300%;
+  text-align: center; 
+}
+
+.topText {
+  position: relative;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+  line-height: 2.0;
+  text-align: center;  
+}

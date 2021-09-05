@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import About from '../pages/About';
-import Projects from '../pages/Projects';
+import About from '../pages/About/About';
+import Projects from '../pages/Projects/Projects';
 
 function Navigation(props) {
     function displayCurrentPage() {
