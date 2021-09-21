@@ -1,5 +1,4 @@
 header {
-  text-align: left;
   padding-left: 40px;
   padding-top: 50px;
   font-family: "Special Elite";
@@ -10,5 +9,25 @@ header h1 {
   color: rgb(214, 214, 214);
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
-  font-size: 55px;
+  font-size: 65px;
+}
+
+/* #myName {
+  margin: 30px;
+  text-align: left;
+} */
+
+#intro {
+ margin-top: 5px;
+ /* text-align: center; */
+}
+
+@media screen and (max-width: 480px) {
+  #intro {
+    text-align: center;
+  }
+
+  #myName {
+    text-align: center;
+  }
 }

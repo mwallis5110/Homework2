@@ -12,7 +12,7 @@ import "./projects.css";
 export default function Projects() {
   return (
     <div className="container">
-      <h1>My Work</h1>
+      <h1 className='myWork'>My Work</h1>
       <p className = 'topText'>
         These are just a few of the many projects I've had the pleasure of
         working on:

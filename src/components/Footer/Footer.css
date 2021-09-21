@@ -1,7 +1,7 @@
 footer {
+  margin-top: 50px;
   padding-bottom: 30px;
   padding-left: 40px;
-  padding-top: 100px;
   background: linear-gradient(184deg, white 40%, black);
 }
 
@@ -12,21 +12,36 @@ footer {
   font-family: "Special Elite";
 }
 
-footer h4 {
-    text-decoration: none;
+.contactLinks {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  font-size: 25px;
-  margin-right: 80px;
-  margin-left: 50px;
+}
+
+#linkedin, #github, #resume, #emailAddress {
+  text-decoration: none;
+  text-align: center;
+  font-size: 35px;
+  /* margin: 10px; */
+  /* margin-right: 80px; */
+  /* margin-left: 50px; */
+  padding: 1rem 2rem;
+
   color: #880808;
   font-weight: bold;
   font-family: "Merriweather", serif;  
 }
 
-footer h4:hover {
+#linkedin:hover, #github:hover, #resume:hover, #emailAddress:hover {
   color: white;
   background-color: #d21404;
   border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;
 }
+
+a {
+  text-align: center;
+   /* padding: 55px; */
+}
+

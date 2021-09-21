@@ -1,22 +1,23 @@
 .aboutMe {
-  position: relative;
-  top: 25px;
+  /* position: relative; */
+  margin-top: 25px;
   font-family: "Special Elite";
   font-size: 300%;
   text-align: center;
 }
 
-.headshot {
-  position: relative;
-  float: left;
-  top: 40px;
-  left: 70px;
+#headshot {
+  /* position: relative; */
+  /* float: left; */
+  width: 600px;
+  /* top: 40px; */
+  /* padding-left: 70px; */
 }
 
 .aboutText {
-  position: relative;
-  right: 70px;
-  top: 100px;
+  /* position: relative; */
+  margin-top: 30px;
+  /* top: 100px; */
   font-size: 25px;
   font-family: "Merriweather", serif;
   line-height: 2.0;
