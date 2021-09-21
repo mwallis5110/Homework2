@@ -24,15 +24,16 @@ export default function About() {
             your vision and website idea, then craft it to your specifications.
             <br />
             <br />
-            I'm currently searching for an entry-level role within an established
-            company. As a recent coding bootcamp graduate, I'm excited to make 
-            meaningful contributions to my team starting on day one. 
+            I'm currently searching for an entry-level role within an
+            established company. As a recent coding bootcamp graduate, I'm
+            excited to make meaningful contributions to my team starting on day
+            one.
             <br />
             <br />
-            I'm also taking on entry-level projects to build up my resumé.
-            I'm well-versed in the MERN stack, and fluent in HTML5, CSS3, 
-            Javascript, React, Bootstrap, Express.js, NodeJS, SQL, MySQL, 
-            NoSQL and GraphQL.
+            I'm also taking on entry-level projects to build up my resumé. I'm
+            well-versed in the MERN stack, and fluent in HTML5, CSS3,
+            Javascript, React, Bootstrap, Express.js, NodeJS, MongoDB, SQL,
+            MySQL, NoSQL and GraphQL.
           </p>
         </Col>
       </Row>
