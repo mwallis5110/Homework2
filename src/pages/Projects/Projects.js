@@ -80,12 +80,7 @@ export default function Projects() {
         {/* Sous Chef Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg
-              top
-              width="100%"
-              src={Chef}
-              alt="Sous Chef Screenshot"
-            />
+            <CardImg top width="100%" src={Chef} alt="Sous Chef Screenshot" />
             <Card.Body>
               <Card.Title>Sous Chef</Card.Title>
               <Card.Text>
@@ -94,7 +89,7 @@ export default function Projects() {
                 homepage/dashboard. Uses NodeJS, Express.js, Handlebars, MySQL,
                 and Sequelize.
               </Card.Text>
-              <Card.Link href="https://music-portfolio-20.herokuapp.com/">
+              <Card.Link href="https://sous-chef-project-2.herokuapp.com/">
                 Deployed Website
               </Card.Link>
               <Card.Link href="https://github.com/mwallis5110/Sous-Chef">
@@ -115,8 +110,13 @@ export default function Projects() {
               <Card.Title>Pet Seeker</Card.Title>
               <Card.Text>
                 Pet Seeker is a user-friendly website that can help you find
-                your new four-legged friend!
+                your new four-legged friend! Imports data from
+                <a href="https://www.petfinder.com/"> PetFinder</a> and
+                <a href="https://thedogapi.com/"> The Dog API</a>.
               </Card.Text>
+              <Card.Link href=" https://brandonnorsworthy.github.io/pet-seeker/">
+                Deployed Website
+              </Card.Link>
               <Card.Link href="https://github.com/mwallis5110/pet-seeker">
                 Repository
               </Card.Link>
@@ -124,21 +124,24 @@ export default function Projects() {
           </Card>
         </Col>
 
-        {/* Book Searc Engine Card */}
+        {/* Book Search Engine Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg
               top
               width="100%"
-              src={Fitness}
-              alt="Fitness Tracker Screenshot"
+              src={Construction}
+              alt="Book Search Engine Screenshot"
             />
             <Card.Body>
               <Card.Title>Book Search Engine</Card.Title>
               <Card.Text>
-                This is a program used to input and track your workout stats.
+                TODO: Finish this project, deployed site link, add description. **Don't forget to update resume and check ALL links too
               </Card.Text>
-              <Card.Link href="https://github.com/mwallis5110/Fitness_Tracker_HW_15">
+              <Card.Link href=" https://brandonnorsworthy.github.io/pet-seeker/">
+                Deployed Website
+              </Card.Link>
+              <Card.Link href="https://github.com/mwallis5110/Book_Search_Engine">
                 Repository
               </Card.Link>
             </Card.Body>
@@ -149,11 +152,8 @@ export default function Projects() {
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Pet} alt="Pet Seeker Screenshot" />
             <Card.Body>
-              <Card.Title>Pet Seeker</Card.Title>
-              <Card.Text>
-                Pet Seeker is a user-friendly website that can help you find
-                your new four-legged friend!
-              </Card.Text>
+              <Card.Title>Redux Store</Card.Title>
+              <Card.Text>TODO: Finish this project, update links, write description</Card.Text>
               <Card.Link href="https://github.com/mwallis5110/pet-seeker">
                 Repository
               </Card.Link>
@@ -164,6 +164,7 @@ export default function Projects() {
 
       {/* Row 3 */}
       <Row>
+        {/* Employee Database Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg
@@ -185,6 +186,7 @@ export default function Projects() {
           </Card>
         </Col>
 
+        {/* Note Taker Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Note} alt="Note Taker gif" />
@@ -199,7 +201,7 @@ export default function Projects() {
             </Card.Body>
           </Card>
         </Col>
-
+        {/* Fitness Tracker Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg
@@ -211,7 +213,7 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Fitness Tracker</Card.Title>
               <Card.Text>
-                This is a program used to input and track your workout stats.
+                This program uses NoSQL and MongoDB to input and track your workout stats.
               </Card.Text>
               <Card.Link href="https://github.com/mwallis5110/Fitness_Tracker_HW_15">
                 Repository
