@@ -1,3 +1,20 @@
+.myWork {
+  position: relative;
+  top: 25px;
+  font-family: "Special Elite";
+  font-size: 300%;
+  text-align: center;
+}
+
+.topText {
+  position: relative;
+  margin-top: 25px;
+  font-size: 25px;
+  font-family: "Merriweather", serif;
+  line-height: 2;
+  text-align: center;
+}
+
 .col {
   margin: 20px !important;
 }
@@ -6,21 +23,4 @@
   margin: 30px !important;
   border: 1px solid darkgray !important;
   box-shadow: 3px 3px lightgray;
-}
-
-.myWork {
-  position: relative;
-  top: 25px;
-  font-family: "Special Elite";
-  font-size: 300%;
-  text-align: center; 
-}
-
-.topText {
-  position: relative;
-  margin-top: 25px;
-  font-size: 25px;
-  font-family: "Merriweather", serif;
-  line-height: 2.0;
-  text-align: center;  
 }

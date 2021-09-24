@@ -5,7 +5,7 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="Container">
+    <div>
       <h1 className="aboutMe">&lt;Hey There, I'm Mason&gt;</h1>
       <Row>
         <Col md={12} lg={5}>

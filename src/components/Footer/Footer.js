@@ -1,11 +1,15 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Tooltip from "react-bootstrap/Tooltip";
+import OverlayTrigger from "react-bootstrap/OverlayTrigger";
+
 import "./Footer.css";
 
 export default function Footer() {
   return (
     <container>
-      <footer className="contact">
+      <footer>
         <h2 className="contactMe">Contact Me</h2>
         <Row className="contactLinks">
           <Col sm={12} lg={6} xl={3}>
@@ -28,20 +32,19 @@ export default function Footer() {
                 id="resume"
                 href="assets/images/Mason_Wallis_Resume.pdf"
                 download
-                style={{
-                  textAlign: "center",
-                }}
               >
                 My Resumé
               </a>
             </h4>
           </Col>
           <Col sm={12} lg={6} xl={3}>
-            <h4>
-              <a id="emailAddress" href="mailto: mwallis5110@gmail.com">
-                Email Me
-              </a>
-            </h4>
+            <OverlayTrigger overlay={<Tooltip>mwallis5110@gmail.com</Tooltip>}>
+              <h4>
+                <a id="emailAddress" href="mailto: mwallis5110@gmail.com">
+                  Email Me
+                </a>
+              </h4>
+            </OverlayTrigger>
           </Col>
         </Row>
       </footer>

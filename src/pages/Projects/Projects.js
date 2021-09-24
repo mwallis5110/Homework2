@@ -6,8 +6,11 @@ import Note from "../../images/note_taker.gif";
 import Pet from "../../images/pet-seeker.PNG";
 import PortfolioGen from "../../images/portfolioGenerator.PNG";
 import Construction from "../../images/under_construction.png";
-import { CardImg, Row, Col, Button } from "react-bootstrap";
-import Card from "react-bootstrap/Card"
+import Card from "react-bootstrap/Card";
+import CardImg from "react-bootstrap/CardImg";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 import "./projects.css";
 
 export default function Projects() {
@@ -24,14 +27,11 @@ export default function Projects() {
         {/* Nphase Records Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg
-              top
-              width="100%"
-              src={Construction}
-              alt="Nphase Records Portfolio"
-            />
+            <CardImg src={Construction} alt="Nphase Records Portfolio" />
             <Card.Body>
-              <Card.Title>Nphase Records Portfolio</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Nphase Records Portfolio
+              </Card.Title>
               <Card.Text>
                 <br />
                 My first paid project. A React-based portfolio website created
@@ -59,14 +59,11 @@ export default function Projects() {
         {/* Portfolio Generator Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg
-              top
-              width="100%"
-              src={PortfolioGen}
-              alt="Portfolio Generator"
-            />
+            <CardImg src={PortfolioGen} alt="Portfolio Generator" />
             <Card.Body>
-              <Card.Title>Portfolio Generator</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Portfolio Generator
+              </Card.Title>
               <Card.Text>
                 <br />
                 An application that utilizes GraphQL, React, and MongoDB to
@@ -97,7 +94,7 @@ export default function Projects() {
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Chef} alt="Sous Chef Screenshot" />
             <Card.Body>
-              <Card.Title>Sous Chef</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>Sous Chef</Card.Title>
               <Card.Text>
                 A full-stack web application that allows a user to browse a
                 recipe library and save recipes to their own user
@@ -120,16 +117,16 @@ export default function Projects() {
             </Card.Body>
           </Card>
         </Col>
-      {/* </Row> */}
 
-      {/* Row 2 */}
-      {/* <Row> */}
+        {/* Row 2 */}
         {/* Pet Seeker Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Pet} alt="Pet Seeker Screenshot" />
             <Card.Body>
-              <Card.Title>Pet Seeker</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Pet Seeker
+              </Card.Title>
               <Card.Text>
                 Pet Seeker is a user-friendly website that can help you find
                 your new four-legged friend! Imports data from
@@ -156,14 +153,11 @@ export default function Projects() {
         {/* Book Search Engine Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg
-              top
-              width="100%"
-              src={Construction}
-              alt="Book Search Engine Screenshot"
-            />
+            <CardImg src={Construction} alt="Book Search Engine Screenshot" />
             <Card.Body>
-              <Card.Title>Book Search Engine</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Book Search Engine
+              </Card.Title>
               <Card.Text>
                 TODO: Finish this project, deployed site link, add description.
                 **Don't forget to update resume and check ALL links too
@@ -189,7 +183,9 @@ export default function Projects() {
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Pet} alt="Pet Seeker Screenshot" />
             <Card.Body>
-              <Card.Title>Redux Store</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Redux Store
+              </Card.Title>
               <Card.Text>
                 TODO: Finish this project, update links, write description
               </Card.Text>
@@ -203,21 +199,16 @@ export default function Projects() {
             </Card.Body>
           </Card>
         </Col>
-      {/* </Row> */}
 
-      {/* Row 3 */}
-      {/* <Row> */}
+        {/* Row 3 */}
         {/* Employee Database Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg
-              top
-              width="100%"
-              src={Employee}
-              alt="Employee Database gif"
-            />
+            <CardImg src={Employee} alt="Employee Database gif" />
             <Card.Body>
-              <Card.Title>Employee Database</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Employee Database
+              </Card.Title>
               <Card.Text>
                 Using Node.js, MYSQL, and Inquirer, this program manages a
                 company's employee database via a command-line interface.
@@ -237,7 +228,9 @@ export default function Projects() {
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Note} alt="Note Taker gif" />
             <Card.Body>
-              <Card.Title>Note Taker</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Note Taker
+              </Card.Title>
               <Card.Text>A note taking app built using ExpressJS.</Card.Text>
               <Button
                 variant="outline-success"
@@ -251,14 +244,11 @@ export default function Projects() {
         {/* Fitness Tracker Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg
-              top
-              width="100%"
-              src={Fitness}
-              alt="Fitness Tracker Screenshot"
-            />
+            <CardImg src={Fitness} alt="Fitness Tracker Screenshot" />
             <Card.Body>
-              <Card.Title>Fitness Tracker</Card.Title>
+              <Card.Title style={{ textAlign: "center" }}>
+                Fitness Tracker
+              </Card.Title>
               <Card.Text>
                 This program uses NoSQL and MongoDB to input and track your
                 workout stats.

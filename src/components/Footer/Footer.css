@@ -18,30 +18,26 @@ footer {
   text-align: center;
 }
 
-#linkedin, #github, #resume, #emailAddress {
+#linkedin,
+#github,
+#resume,
+#emailAddress {
   text-decoration: none;
-  text-align: center;
   font-size: 35px;
-  /* margin: 10px; */
-  /* margin-right: 80px; */
-  /* margin-left: 50px; */
   padding: 1rem 2rem;
-
   color: #880808;
   font-weight: bold;
-  font-family: "Merriweather", serif;  
+  font-family: "Merriweather", serif;
 }
 
-#linkedin:hover, #github:hover, #resume:hover, #emailAddress:hover {
+/* Hover effects */
+#linkedin:hover,
+#github:hover,
+#resume:hover,
+#emailAddress:hover {
   color: white;
   background-color: #d21404;
   border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;
 }
-
-a {
-  text-align: center;
-   /* padding: 55px; */
-}
-
