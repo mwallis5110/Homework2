@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
-import About from '../pages/About/About';
-import Projects from '../pages/Projects/Projects';
+import About from '../pages/About/about';
+import Projects from '../pages/Projects/projects';
 
-function Navigation(props) {
+export default function Navigation(props) {
     function displayCurrentPage() {
       if (props.currentPage === 1) {
         return <About />;
@@ -18,5 +18,4 @@ function Navigation(props) {
     )
 }
 
-export default Navigation
 

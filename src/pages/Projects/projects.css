@@ -1,5 +1,11 @@
-.row {
-    padding: 25px;
+.col {
+  margin: 20px !important;
+}
+
+.card {
+  margin: 30px !important;
+  border: 1px solid darkgray !important;
+  box-shadow: 3px 3px lightgray;
 }
 
 .myWork {

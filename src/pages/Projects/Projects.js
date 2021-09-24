@@ -6,7 +6,8 @@ import Note from "../../images/note_taker.gif";
 import Pet from "../../images/pet-seeker.PNG";
 import PortfolioGen from "../../images/portfolioGenerator.PNG";
 import Construction from "../../images/under_construction.png";
-import { Card, CardImg, Row, Col } from "react-bootstrap";
+import { CardImg, Row, Col, Button } from "react-bootstrap";
+import Card from "react-bootstrap/Card"
 import "./projects.css";
 
 export default function Projects() {
@@ -33,17 +34,24 @@ export default function Projects() {
               <Card.Title>Nphase Records Portfolio</Card.Title>
               <Card.Text>
                 <br />
-                A React-based portfolio website created for Nphase Records. Uses
-                "whatever that video npm thing was" to work with videos.
-                <br />
+                My first paid project. A React-based portfolio website created
+                for Nphase Records. Uses "whatever that video npm thing was" to
+                work with videos. **Under construction
                 <br />
               </Card.Text>
-              <Card.Link href="https://music-portfolio-20.herokuapp.com/">
+              <Button
+                variant="outline-info"
+                href="https://music-portfolio-20.herokuapp.com/"
+              >
                 Deployed Website
-              </Card.Link>
-              <Card.Link href="https://github.com/mwallis5110/Music_Portfolio">
+              </Button>{" "}
+              <Button
+                variant="outline-success"
+                style={{ float: "right" }}
+                href="https://github.com/mwallis5110/Music_Portfolio"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
@@ -67,12 +75,19 @@ export default function Projects() {
                 <br />
                 <br />
               </Card.Text>
-              <Card.Link href="https://react-portfolio-generator-uta.herokuapp.com/">
+              <Button
+                variant="outline-info"
+                href="https://react-portfolio-generator-uta.herokuapp.com/"
+              >
                 Deployed Website
-              </Card.Link>
-              <Card.Link href="https://github.com/mwallis5110/React_Portfolio_Generator">
+              </Button>{" "}
+              <Button
+                variant="outline-success"
+                style={{ float: "right" }}
+                href="https://github.com/mwallis5110/React_Portfolio_Generator"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
@@ -89,19 +104,26 @@ export default function Projects() {
                 homepage/dashboard. Uses NodeJS, Express.js, Handlebars, MySQL,
                 and Sequelize.
               </Card.Text>
-              <Card.Link href="https://sous-chef-project-2.herokuapp.com/">
+              <Button
+                variant="outline-info"
+                href="https://sous-chef-project-2.herokuapp.com/"
+              >
                 Deployed Website
-              </Card.Link>
-              <Card.Link href="https://github.com/mwallis5110/Sous-Chef">
+              </Button>{" "}
+              <Button
+                variant="outline-success"
+                style={{ float: "right" }}
+                href="https://github.com/mwallis5110/Sous-Chef"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
-      </Row>
+      {/* </Row> */}
 
       {/* Row 2 */}
-      <Row>
+      {/* <Row> */}
         {/* Pet Seeker Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
@@ -114,12 +136,19 @@ export default function Projects() {
                 <a href="https://www.petfinder.com/"> PetFinder</a> and
                 <a href="https://thedogapi.com/"> The Dog API</a>.
               </Card.Text>
-              <Card.Link href=" https://brandonnorsworthy.github.io/pet-seeker/">
+              <Button
+                variant="outline-info"
+                href="https://brandonnorsworthy.github.io/pet-seeker/"
+              >
                 Deployed Website
-              </Card.Link>
-              <Card.Link href="https://github.com/mwallis5110/pet-seeker">
+              </Button>{" "}
+              <Button
+                variant="outline-success"
+                style={{ float: "right" }}
+                href="https://github.com/mwallis5110/pet-seeker"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
@@ -136,14 +165,22 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Book Search Engine</Card.Title>
               <Card.Text>
-                TODO: Finish this project, deployed site link, add description. **Don't forget to update resume and check ALL links too
+                TODO: Finish this project, deployed site link, add description.
+                **Don't forget to update resume and check ALL links too
               </Card.Text>
-              <Card.Link href=" https://brandonnorsworthy.github.io/pet-seeker/">
+              <Button
+                variant="outline-info"
+                href="https://brandonnorsworthy.github.io/pet-seeker/"
+              >
                 Deployed Website
-              </Card.Link>
-              <Card.Link href="https://github.com/mwallis5110/Book_Search_Engine">
+              </Button>{" "}
+              <Button
+                variant="outline-success"
+                style={{ float: "right" }}
+                href="https://github.com/mwallis5110/Book_Search_Engine"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
@@ -153,17 +190,23 @@ export default function Projects() {
             <CardImg top width="100%" src={Pet} alt="Pet Seeker Screenshot" />
             <Card.Body>
               <Card.Title>Redux Store</Card.Title>
-              <Card.Text>TODO: Finish this project, update links, write description</Card.Text>
-              <Card.Link href="https://github.com/mwallis5110/pet-seeker">
+              <Card.Text>
+                TODO: Finish this project, update links, write description
+              </Card.Text>
+              <Button
+                variant="outline-success"
+                style={{ float: "right" }}
+                href="https://github.com/mwallis5110/Book_Search_Engine"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
-      </Row>
+      {/* </Row> */}
 
       {/* Row 3 */}
-      <Row>
+      {/* <Row> */}
         {/* Employee Database Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
@@ -179,9 +222,12 @@ export default function Projects() {
                 Using Node.js, MYSQL, and Inquirer, this program manages a
                 company's employee database via a command-line interface.
               </Card.Text>
-              <Card.Link href="https://github.com/mwallis5110/Employee_Tracker_HW12">
+              <Button
+                variant="outline-success"
+                href="https://github.com/mwallis5110/Employee_Tracker_HW12"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
@@ -192,12 +238,13 @@ export default function Projects() {
             <CardImg top width="100%" src={Note} alt="Note Taker gif" />
             <Card.Body>
               <Card.Title>Note Taker</Card.Title>
-              <Card.Text>
-                A simple note taking app built using Express.js
-              </Card.Text>
-              <Card.Link href="https://github.com/mwallis5110/Note_Taker_HW11">
+              <Card.Text>A note taking app built using ExpressJS.</Card.Text>
+              <Button
+                variant="outline-success"
+                href="https://github.com/mwallis5110/Note_Taker_HW11"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
@@ -213,11 +260,15 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Fitness Tracker</Card.Title>
               <Card.Text>
-                This program uses NoSQL and MongoDB to input and track your workout stats.
+                This program uses NoSQL and MongoDB to input and track your
+                workout stats.
               </Card.Text>
-              <Card.Link href="https://github.com/mwallis5110/Fitness_Tracker_HW_15">
+              <Button
+                variant="outline-success"
+                href="https://github.com/mwallis5110/Fitness_Tracker_HW_15"
+              >
                 Repository
-              </Card.Link>
+              </Button>{" "}
             </Card.Body>
           </Card>
         </Col>
