@@ -1,6 +1,6 @@
 import React from "react";
-import About from "../pages/About/about.js";
-import Projects from "../pages/Projects/projects.js";
+import About from "../pages/About/about";
+import Projects from "../pages/Projects/projects";
 
 export default function Navigation(props) {
   function displayCurrentPage() {
