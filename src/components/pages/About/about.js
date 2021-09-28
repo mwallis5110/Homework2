@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
-import Headshot from "../../images/Headshot2.png";
+import Headshot from "../../../../src/images/Headshot2.png";
 import "./about.css";
 
 export default function About() {
