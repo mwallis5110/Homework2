@@ -28,7 +28,7 @@ export default function Projects() {
         {/* Nphase Records Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg src={Nphase} alt="Nphase Records Portfolio"/>
+            <CardImg src={Nphase} alt="Nphase Records Portfolio" />
             <Card.Body>
               <Card.Title style={{ textAlign: "center" }}>
                 Nphase Records Portfolio
@@ -37,7 +37,7 @@ export default function Projects() {
                 <br />
                 My first paid project. A React-based portfolio website created
                 for Nphase Records. *Under construction
-                <br /> 
+                <br />
                 <br />
               </Card.Text>
               <Button
@@ -125,6 +125,7 @@ export default function Projects() {
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Pet} alt="Pet Seeker Screenshot" />
             <Card.Body>
+              <br />
               <Card.Title style={{ textAlign: "center" }}>
                 Pet Seeker
               </Card.Title>
@@ -248,12 +249,15 @@ export default function Projects() {
           <Card style={{ width: "20rem" }}>
             <CardImg src={Fitness} alt="Fitness Tracker Screenshot" />
             <Card.Body>
+              <br />
               <Card.Title style={{ textAlign: "center" }}>
                 Fitness Tracker
               </Card.Title>
               <Card.Text>
                 This program uses NoSQL and MongoDB to input and track your
                 workout stats.
+                <br />
+                <br />
               </Card.Text>
               <Button
                 variant="outline-success"
