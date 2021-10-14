@@ -28,11 +28,7 @@ export default function Footer() {
           </Col>
           <Col sm={12} lg={6} xl={3}>
             <h4>
-              <a
-                id="resume"
-                href="assets/images/Mason_Wallis_Resume.pdf"
-                download
-              >
+              <a id="resume" href="../../images/Mason_Wallis_Resume.pdf" download>
                 My Resumé
               </a>
             </h4>

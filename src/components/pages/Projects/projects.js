@@ -3,6 +3,7 @@ import Chef from "../../../../src/images/sous-chef.PNG";
 import Fitness from "../../../../src/images/fitness_tracker.PNG";
 import Employee from "../../../../src/images/employee_tracker.gif";
 import Note from "../../../../src/images/note_taker.gif";
+import Nphase from "../../../../src/images/nphase3.png";
 import Pet from "../../../../src/images/pet-seeker.PNG";
 import PortfolioGen from "../../../../src/images/portfolioGenerator.PNG";
 import Construction from "../../../../src/images/under_construction.png";
@@ -27,7 +28,7 @@ export default function Projects() {
         {/* Nphase Records Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg src={Construction} alt="Nphase Records Portfolio" />
+            <CardImg src={Nphase} alt="Nphase Records Portfolio"/>
             <Card.Body>
               <Card.Title style={{ textAlign: "center" }}>
                 Nphase Records Portfolio
@@ -35,8 +36,8 @@ export default function Projects() {
               <Card.Text>
                 <br />
                 My first paid project. A React-based portfolio website created
-                for Nphase Records. Uses "whatever that video npm thing was" to
-                work with videos. **Under construction
+                for Nphase Records. *Under construction
+                <br /> 
                 <br />
               </Card.Text>
               <Button
@@ -151,7 +152,7 @@ export default function Projects() {
         </Col>
 
         {/* Book Search Engine Card */}
-        <Col sm={12} lg={6} xl={4}>
+        {/* <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg src={Construction} alt="Book Search Engine Screenshot" />
             <Card.Body>
@@ -177,9 +178,9 @@ export default function Projects() {
               </Button>{" "}
             </Card.Body>
           </Card>
-        </Col>
+        </Col> */}
 
-        <Col sm={12} lg={6} xl={4}>
+        {/* <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Pet} alt="Pet Seeker Screenshot" />
             <Card.Body>
@@ -198,7 +199,7 @@ export default function Projects() {
               </Button>{" "}
             </Card.Body>
           </Card>
-        </Col>
+        </Col> */}
 
         {/* Row 3 */}
         {/* Employee Database Card */}
@@ -224,7 +225,7 @@ export default function Projects() {
         </Col>
 
         {/* Note Taker Card */}
-        <Col sm={12} lg={6} xl={4}>
+        {/* <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
             <CardImg top width="100%" src={Note} alt="Note Taker gif" />
             <Card.Body>
@@ -240,7 +241,8 @@ export default function Projects() {
               </Button>{" "}
             </Card.Body>
           </Card>
-        </Col>
+        </Col> */}
+
         {/* Fitness Tracker Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
