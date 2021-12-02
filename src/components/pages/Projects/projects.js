@@ -267,6 +267,7 @@ export default function Projects() {
               </Button>{" "}
               <Button
                 variant="outline-success"
+                style={{ float: "right" }}
                 href="https://github.com/mwallis5110/Fitness_Tracker_HW_15"
               >
                 Repository
