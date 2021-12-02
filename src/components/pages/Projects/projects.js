@@ -260,6 +260,12 @@ export default function Projects() {
                 <br />
               </Card.Text>
               <Button
+                variant="outline-info"
+                href="https://fitness-tracker-hw-15.herokuapp.com/"
+              >
+                Deployed Website
+              </Button>{" "}
+              <Button
                 variant="outline-success"
                 href="https://github.com/mwallis5110/Fitness_Tracker_HW_15"
               >
