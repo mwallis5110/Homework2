@@ -217,6 +217,7 @@ export default function Projects() {
               </Card.Text>
               <Button
                 variant="outline-success"
+                style={{ float: "right" }}
                 href="https://github.com/mwallis5110/Employee_Tracker_HW12"
               >
                 Repository
