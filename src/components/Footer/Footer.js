@@ -4,6 +4,8 @@ import Col from "react-bootstrap/Col";
 import Tooltip from "react-bootstrap/Tooltip";
 import OverlayTrigger from "react-bootstrap/OverlayTrigger";
 
+import Resume from "../../images/Mason_Wallis_Resume.pdf"
+
 import "./Footer.css";
 
 export default function Footer() {
@@ -28,7 +30,7 @@ export default function Footer() {
           </Col>
           <Col sm={12} lg={6} xl={3}>
             <h4>
-              <a id="resume" href="../../images/Mason_Wallis_Resume.pdf" download>
+              <a id="resume" href={Resume} download>
                 My Resumé
               </a>
             </h4>

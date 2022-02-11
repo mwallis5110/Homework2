@@ -28,7 +28,7 @@ export default function Projects() {
         {/* Nphase Records Card */}
         <Col sm={12} lg={6} xl={4}>
           <Card style={{ width: "20rem" }}>
-            <CardImg src={Nphase} alt="Nphase Records Portfolio" />
+            <CardImg src={Nphase} alt="Nphase Records Portfolio"/>
             <Card.Body>
               <Card.Title style={{ textAlign: "center" }}>
                 Nphase Records Portfolio
