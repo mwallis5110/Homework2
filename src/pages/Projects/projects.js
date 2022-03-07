@@ -1,12 +1,12 @@
 import React from "react";
-import Chef from "../../../../src/images/sous-chef.PNG";
-import Fitness from "../../../../src/images/fitness_tracker.PNG";
-import Employee from "../../../../src/images/employee_tracker.gif";
-import Note from "../../../../src/images/note_taker.gif";
-import Nphase from "../../../../src/images/nphase3.png";
-import Pet from "../../../../src/images/pet-seeker.PNG";
-import PortfolioGen from "../../../../src/images/portfolioGenerator.PNG";
-import Construction from "../../../../src/images/under_construction.png";
+import Chef from "../../../src/images/sous-chef.PNG";
+import Fitness from "../../../src/images/fitness_tracker.PNG";
+import Employee from "../../../src/images/employee_tracker.gif";
+import Note from "../../../src/images/note_taker.gif";
+import Nphase from "../../../src/images/nphase3.png";
+import Pet from "../../../src/images/pet-seeker.PNG";
+import PortfolioGen from "../../../src/images/portfolioGenerator.PNG";
+// import Construction from "../../../src/images/under_construction.png";
 import Card from "react-bootstrap/Card";
 import CardImg from "react-bootstrap/CardImg";
 import Row from "react-bootstrap/Row";
@@ -36,7 +36,7 @@ export default function Projects() {
               <Card.Text>
                 <br />
                 My first paid project. A React-based portfolio website created
-                for Nphase Records. *Under construction
+                for Nphase Records. *Under construction*
                 <br />
                 <br />
               </Card.Text>

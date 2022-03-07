@@ -1,3 +1,8 @@
+.aboutWrapper {
+  overflow: hidden;
+  height: 100vh;
+}
+
 .aboutMe {
   margin-top: 25px;
   font-family: "Special Elite";
@@ -5,8 +10,9 @@
   text-align: center;
 }
 
-#headshot {
+.headshot {
   margin-left: 30px;
+  padding: 0px;
   width: 600px;
 }
 

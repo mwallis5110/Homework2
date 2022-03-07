@@ -1,8 +1,13 @@
 footer {
   margin-top: 50px;
   padding-bottom: 30px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   background: linear-gradient(184deg, white 40%, black);
+}
+
+button {
+  background: none;
+  border: none;
 }
 
 .contactMe {
@@ -14,6 +19,7 @@ footer {
 
 .contactLinks {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   text-align: center;
 }
