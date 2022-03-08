@@ -1,18 +1,24 @@
-import React, { useState } from "react";
-import Navigation from "./components/Navigation";
-import TopNavbar from "./components/Navbar/Navbar";
+import React from "react";
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import About from "./pages/About/about";
+import Projects from "./pages/Projects/projects"
+import ErrorPage from "./pages/errorPage";
 
 export default function App() {
-    const [currentPage, setCurrentPage] = useState(1);
 
   return (
-    <div>
-        <Header />
-        {/* <TopNavbar setCurrentPage = {setCurrentPage} /> */}
-        <Navigation currentPage = {currentPage} />
-        <Footer />
-    </div>
-  )
+    <Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="*" element={<ErrorPage />}/>
+      </Routes>
+      <Footer />
+    </Router>
+  );
 };

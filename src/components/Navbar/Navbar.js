@@ -1,19 +1,18 @@
 import React from "react";
+
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 import "./Navbar.css";
 
-export default function TopNavbar(props) {
+export default function TopNavbar() {
   return (
     <div className="navBar">
-      <button href="/about" id="link1" onClick={() => props.setCurrentPage(1)}>
-        About Me
-      </button>
-      <button
-        href="/projects"
-        id="link2"
-        onClick={() => props.setCurrentPage(2)}
-      >
-        My Work
-      </button>
+        <Link to="/">
+          <button id="link1">About Me</button>
+        </Link>
+        <Link to="/projects">
+          <button id="link2">My Work</button>
+        </Link>
     </div>
   );
 }
