@@ -2,9 +2,6 @@ import React, { useState } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 
-import { CopyToClipboard } from "react-copy-to-clipboard";
-import { BiClipboard } from "react-icons/bi";
-
 export default function EmailButton() {
   //State for Tippy tooltip
   const [visible, setVisible] = useState(false);
@@ -14,7 +11,11 @@ export default function EmailButton() {
   return (
     <div>
       <Tippy
-        content={<h4>mwallis5110@gmail.com</h4>}
+        content={
+          <span className="toolTipContent">
+            <h4>mwallis5110@gmail.com</h4>
+          </span>
+        }
         visible={visible}
         onClickOutside={hide}
       >
