@@ -1,10 +1,6 @@
 import React from "react";
 import EmailButton from "../EmailButton/EmailButton";
 
-//Tooltip package (For email address button)
-// import Tippy from '@tippyjs/react';
-// import 'tippy.js/dist/tippy.css';
-
 import Resume from "../../images/Mason_Wallis_Resume.pdf"
 
 import "./Footer.css";
