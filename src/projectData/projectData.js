@@ -69,9 +69,6 @@ export const NonRelationalArray = [
     link: "https://fitness-tracker-hw-15.herokuapp.com/",
     repo: "https://github.com/mwallis5110/Fitness_Tracker_HW_15",
   },
-];
-
-export const GQLArray = [
   {
     cardImg: PortfolioGen,
     cardTitle: "Portfolio Generator",

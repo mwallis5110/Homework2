@@ -4,16 +4,15 @@ import {
   ReactArray,
   RelationalArray,
   NonRelationalArray,
-  GQLArray,
-  JavaArray
+  JavaArray,
 } from "../../projectData/projectData";
 
 import "./card.css";
 
 export function JSCard() {
-  JSArray.map((JSProject) => {
+  return JSArray.map((JSProject) => {
     return (
-      <div className="cardWrapper">
+      <div className="card">
         <img className="cardImg" src={JSProject.cardImg} alt="Project" />
         <div className="cardBody">
           <h2 className="cardTitle">{JSProject.cardTitle}</h2>
@@ -27,9 +26,9 @@ export function JSCard() {
 }
 
 export function ReactCard() {
-  ReactArray.map((ReactProject) => {
+  return ReactArray.map((ReactProject) => {
     return (
-      <div className="cardWrapper">
+      <div className="card">
         <img className="cardImg" src={ReactProject.cardImg} alt="Project" />
         <div className="cardBody">
           <h2 className="cardTitle">{ReactProject.cardTitle}</h2>
@@ -43,10 +42,14 @@ export function ReactCard() {
 }
 
 export function RelationalCard() {
-  RelationalArray.map((RelationalProject) => {
+  return RelationalArray.map((RelationalProject) => {
     return (
-      <div className="cardWrapper">
-        <img className="cardImg" src={RelationalProject.cardImg} alt="Project" />
+      <div className="card">
+        <img
+          className="cardImg"
+          src={RelationalProject.cardImg}
+          alt="Project"
+        />
         <div className="cardBody">
           <h2 className="cardTitle">{RelationalProject.cardTitle}</h2>
           <p className="cardDescription">{RelationalProject.cardDescription}</p>
@@ -59,13 +62,19 @@ export function RelationalCard() {
 }
 
 export function NonRelationalCard() {
-  NonRelationalArray.map((NonRelationalProject) => {
+  return NonRelationalArray.map((NonRelationalProject) => {
     return (
-      <div className="cardWrapper">
-        <img className="cardImg" src={NonRelationalProject.cardImg} alt="Project" />
+      <div className="card">
+        <img
+          className="cardImg"
+          src={NonRelationalProject.cardImg}
+          alt="Project"
+        />
         <div className="cardBody">
           <h2 className="cardTitle">{NonRelationalProject.cardTitle}</h2>
-          <p className="cardDescription">{NonRelationalProject.cardDescription}</p>
+          <p className="cardDescription">
+            {NonRelationalProject.cardDescription}
+          </p>
           <button className="link">{NonRelationalProject.link}</button>
           <button className="repo">{NonRelationalProject.repo}</button>
         </div>
@@ -74,26 +83,10 @@ export function NonRelationalCard() {
   });
 }
 
-export function GQLCard() {
-  GQLArray.map((GQLProject) => {
-    return (
-      <div className="cardWrapper">
-        <img className="cardImg" src={GQLProject.cardImg} alt="Project" />
-        <div className="cardBody">
-          <h2 className="cardTitle">{GQLProject.cardTitle}</h2>
-          <p className="cardDescription">{GQLProject.cardDescription}</p>
-          <button className="link">{GQLProject.link}</button>
-          <button className="repo">{GQLProject.repo}</button>
-        </div>
-      </div>
-    );
-  });
-}
-
 export function JavaCard() {
-  JavaArray.map((JavaProject) => {
+  return JavaArray.map((JavaProject) => {
     return (
-      <div className="cardWrapper">
+      <div className="card">
         <img className="cardImg" src={JavaProject.cardImg} alt="Project" />
         <div className="cardBody">
           <h2 className="cardTitle">{JavaProject.cardTitle}</h2>
