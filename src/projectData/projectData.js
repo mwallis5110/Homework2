@@ -1,10 +1,10 @@
-import Chef from "../../../src/images/sous-chef.PNG";
-import Fitness from "../../../src/images/fitness_tracker.PNG";
-import Employee from "../../../src/images/employee_tracker.gif";
-import Note from "../../../src/images/note_taker.gif";
-import Nphase from "../../../src/images/nphase3.png";
-import Pet from "../../../src/images/pet-seeker.PNG";
-import PortfolioGen from "../../../src/images/portfolioGenerator.PNG";
+import Chef from "../images/sous-chef.PNG";
+import Fitness from "../images/fitness_tracker.PNG";
+import Employee from "../images/employee_tracker.gif";
+import Note from "../images/note_taker.gif";
+import Nphase from "../images/nphase3.png";
+import Pet from "../images/pet-seeker.PNG";
+import PortfolioGen from "../images/portfolioGenerator.PNG";
 
 export const JSArray = [
   {
@@ -19,7 +19,7 @@ export const JSArray = [
     cardImg: Note,
     cardTitle: "ExpressJS Note Taker",
     cardDescription: "A note taking app built using ExpressJS.",
-    github: "https://github.com/mwallis5110/Note_Taker_HW11",
+    repo: "https://github.com/mwallis5110/Note_Taker_HW11",
   },
 ];
 
@@ -48,18 +48,26 @@ export const RelationalArray = [
     cardTitle: "Employee Database",
     cardDescription:
       "Using Node.js, MYSQL, and InquirerJS, this program manages a company's employee database via a command-line interface.",
-    github: "https://github.com/mwallis5110/Employee_Tracker_HW12",
+    repo: "https://github.com/mwallis5110/Employee_Tracker_HW12",
+  },
+  {
+    cardImg: Chef,
+    cardTitle: "Sous Chef",
+    cardDescription:
+      "A full-stack web application that allows a user to browse a recipe library and save recipes to their own user homepage/dashboard. Uses NodeJS, Express.js, Handlebars, MySQL, and Sequelize.",
+    link: "https://sous-chef-project-2.herokuapp.com/",
+    repo: "https://github.com/mwallis5110/Sous-Chef",
   },
 ];
 
 export const NonRelationalArray = [
   {
     cardImg: Fitness,
-    cardTitle: "FitnessTracker",
+    cardTitle: "Fitness Tracker",
     cardDescription:
       "This program uses NoSQL and MongoDB to input and track your workout stats.",
     link: "https://fitness-tracker-hw-15.herokuapp.com/",
-    github: "https://github.com/mwallis5110/Fitness_Tracker_HW_15",
+    repo: "https://github.com/mwallis5110/Fitness_Tracker_HW_15",
   },
 ];
 
@@ -75,5 +83,3 @@ export const GQLArray = [
 ];
 
 export const JavaArray = [];
-
-export const MiscArray = [];
