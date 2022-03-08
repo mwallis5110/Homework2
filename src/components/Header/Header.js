@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import TopNavbar from "../Navbar/Navbar";
-// import Navigation from "./components/Navigation";
 import "./Header.css";
 
 export default function Header() {
