@@ -5,7 +5,6 @@ import {
   ReactCard,
   RelationalCard,
   NonRelationalCard,
-  GQLCard,
   JavaCard,
 } from "../../components/Card/cards";
 
@@ -44,12 +43,12 @@ export default function Projects(props) {
             <NonRelationalCard />
           </div>
         </div>
-        <div className="JavaSection">
+        {/* <div className="JavaSection">
           <h2>Java Projects</h2>
           <div className="Row">
             <JavaCard />
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
