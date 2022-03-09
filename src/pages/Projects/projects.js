@@ -20,31 +20,39 @@ export default function Projects(props) {
       </p>
       <div className="cardWrapper">
         <div className="JSSection">
-          <h2>Javascript</h2>
+          <div className="line"></div>
+          <h2 className="rowTitle">Javascript</h2>
           <div className="Row">
             <JSCard />
           </div>
         </div>
         <div className="ReactSection">
-          <h2>ReactJS</h2>
+          <div className="line"></div>
+          <h2 className="rowTitle">ReactJS</h2>
           <div className="Row">
             <ReactCard />
           </div>
         </div>
         <div className="RelationalSection">
-          <h2>Relational Database Projects</h2>
+          <div className="line"></div>
+
+          <h2 className="rowTitle">Relational Database Projects</h2>
           <div className="Row">
             <RelationalCard />
           </div>
         </div>
         <div className="NonRelationalSection">
-          <h2>Non-Relational Database Projects</h2>
+          <div className="line"></div>
+
+          <h2 className="rowTitle">Non-Relational Database Projects</h2>
           <div className="Row">
             <NonRelationalCard />
           </div>
         </div>
         {/* <div className="JavaSection">
-          <h2>Java Projects</h2>
+                  <div className="line"></div>
+
+          <h2>Java</h2>
           <div className="Row">
             <JavaCard />
           </div>
