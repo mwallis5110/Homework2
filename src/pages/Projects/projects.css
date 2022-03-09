@@ -26,6 +26,8 @@
   margin-top: 40px;
   margin-bottom: 20px;
   padding-left: 60px;
+  font-family: "Special Elite";
+  font-size: 300%;
 }
 
 .Row {
@@ -58,5 +60,3 @@
   left: 5%;
   height: 3px;
 }
-
-

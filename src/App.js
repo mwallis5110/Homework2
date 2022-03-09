@@ -8,17 +8,21 @@ import About from "./pages/About/about";
 import Projects from "./pages/Projects/projects"
 import ErrorPage from "./pages/errorPage";
 
+import "./App.css";
+
 export default function App() {
 
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="*" element={<ErrorPage />}/>
-      </Routes>
-      <Footer />
-    </Router>
+    <div className="App">
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 };

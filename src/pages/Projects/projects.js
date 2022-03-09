@@ -57,6 +57,7 @@ export default function Projects(props) {
             <JavaCard />
           </div>
         </div> */}
+        <div className="line"></div>
       </div>
     </div>
   );
