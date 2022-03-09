@@ -13,7 +13,7 @@ export const JSArray = [
     cardImg: Pet,
     cardTitle: "Pet Seeker",
     cardDescription:
-    "Pet Seeker is a user-friendly website that can help you find your new four-legged friend! Imports data from PetFinder The Dog APIs",
+    "Pet Seeker is a user-friendly website that can help you find your new four-legged friend! Imports data from PetFinder and The Dog APIs",
     link: (
       <a href="https://brandonnorsworthy.github.io/pet-seeker/"><button className=".link">Deployed App</button></a>
     ),
