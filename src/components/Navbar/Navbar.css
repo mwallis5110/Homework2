@@ -3,7 +3,7 @@
   font-size: 35px;
   margin-right: 50px;
   padding: 1rem 2rem;
-  color: #880808;
+  color: #B8D8D8;
   font-weight: bold;
   font-family: "Merriweather", serif;
 }
@@ -11,8 +11,8 @@
 /* Hover effects */
 #link1:hover,
 #link2:hover {
-  color: white;
-  background-color: #d21404;
+  background-color: #EEF5DB;
+  color: #4F6367;
   border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;

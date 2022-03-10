@@ -8,7 +8,7 @@ export default function Header() {
     <div className="header">
       <div className="leftSide">
         <h1>Mason Wallis</h1>
-        <h3>&lt;Full Stack Developer | Austin, TX&gt;</h3>
+        <h3 className="subheader">&lt;Full Stack Developer | Austin, TX&gt;</h3>
       </div>
       <div className="rightSide">
         <TopNavbar />
