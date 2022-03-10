@@ -1,6 +1,7 @@
 footer {
-  margin-top: 50px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  background: linear-gradient(-4deg, #005cfa, #050505);
 }
 
 button {
@@ -10,8 +11,9 @@ button {
 
 .contactMe {
   text-align: center;
+  color: rgb(214, 214, 214);
   font-size: 300%;
-  margin-bottom: 25px;
+  padding-bottom: 15px;
   font-family: "Special Elite";
 }
 
@@ -28,7 +30,6 @@ button {
 #emailAddress {
   text-decoration: none;
   font-size: 35px;
-  padding: 1rem 2rem;
   color: #880808;
   font-weight: bold;
   font-family: "Merriweather", serif;
