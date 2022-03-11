@@ -6,11 +6,10 @@ import Resume from "../../images/Mason_Wallis_Resume.pdf";
 import "./Dropdown.css";
 
 export default function Dropdown() {
-
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
+  const handleClick= () => setClick(!click)
+
   const closeMobileMenu = () => {
     setClick(false);
   };
@@ -22,9 +21,8 @@ export default function Dropdown() {
           Contact Me
         </button>
       </div>
-      <div className="dropMenu">
-        <ul className={click ? "contactMenu active" : "contactMenu"}>
-          {/* {dropdown && <Dropdown />} */}
+      <div className={click ? "dropMenu-clicked" : "dropMenu"}>
+        <ul>
           <li className="contactItem" onClick={closeMobileMenu}>
             <button>
               <a id="linkedin" href="https://www.linkedin.com/in/masonwallis/">

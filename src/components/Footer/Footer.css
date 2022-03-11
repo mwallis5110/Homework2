@@ -35,8 +35,7 @@ button {
   font-family: "Merriweather", serif;
 }
 
-/* Hover effects */
-#linkedin:hover,
+/* #linkedin:hover,
 #github:hover,
 #resume:hover,
 #emailAddress:hover {
@@ -45,4 +44,4 @@ button {
   border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;
-}
+} */

@@ -4,7 +4,6 @@
   padding-top: 15px;
   font-family: "Special Elite";
   background: linear-gradient(-184deg, #005cfa, #050505 );
-  /* background: linear-gradient(4deg, #FE5F55 40%, #4F6367); */
 }
 
 .header h1 {
@@ -21,9 +20,9 @@
 }
 
 .leftSide {
-  width: 50%;
+  width: 35%;
 }
 
 .rightSide {
-  width: 50%;
+  width: 65%;
 }

@@ -1,5 +1,8 @@
-#link1,
-#link2 {
+.navWrapper {
+  float: right;
+}
+
+#link {
   font-size: 35px;
   margin-right: 50px;
   padding: 1rem 2rem;
@@ -9,8 +12,7 @@
 }
 
 /* Hover effects */
-#link1:hover,
-#link2:hover {
+#link:hover {
   background-color: #EEF5DB;
   color: #4F6367;
   border-radius: 50px;
@@ -19,8 +21,7 @@
 }
 
 @media screen and (max-width: 480px) {
-  #link1,
-  #link2 {
+  #link {
     font-size: 25px;
     text-align: center;
   }

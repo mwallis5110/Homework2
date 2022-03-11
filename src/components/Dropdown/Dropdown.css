@@ -1,0 +1,33 @@
+.dropMenu {
+    display: none;
+}
+.dropMenu-clicked {
+    width: 300px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+}
+
+.contactButton {
+    font-size: 35px;
+  /* margin-right: 50px; */
+  /* padding: 1rem 2rem; */
+  color: #B8D8D8;
+  font-weight: bold;
+  font-family: "Merriweather", serif;
+}
+
+.contactItem {
+    background: #1888ff;
+    cursor: pointer;
+}
+
+.contactItem:hover {
+    background: #5cabff;
+}
+
+/* .contactItem.clicked {
+    display: none;
+} */
+
