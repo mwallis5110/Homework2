@@ -3,10 +3,15 @@
   width: 25rem;
   overflow: hidden;
   margin: 2rem;
-  box-shadow: 0 0 10px 5px lightslategray;
+  box-shadow: 0 0 10px lightslategray;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 5px lightslategray;
 }
 
 .cardImg {

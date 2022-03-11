@@ -19,8 +19,8 @@ export function JSCard() {
           <p className="cardDescription">{JSProject.cardDescription}</p>
         </div>
         <div className="buttons">
-          <button className="link">{JSProject.link}</button>
-          <button className="repo">{JSProject.repo}</button>
+          <p className="link">{JSProject.link}</p>
+          <p className="repo">{JSProject.repo}</p>
         </div>
       </div>
     );

@@ -26,17 +26,17 @@ export default function Dropdown() {
       >
         <ul>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <a id="linkedin" href="https://www.linkedin.com/in/masonwallis/">
+            <a href="https://www.linkedin.com/in/masonwallis/">
               LinkedIn
             </a>
           </li>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <a id="github" href="https://github.com/mwallis5110">
+            <a href="https://github.com/mwallis5110">
               Github
             </a>
           </li>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <a id="resume" href={Resume} download>
+            <a href={Resume} download>
               My Resumé
             </a>
           </li>

@@ -8,23 +8,24 @@ export default function EmailButton() {
   const show = () => setVisible(true);
   const hide = () => setVisible(false);
 
+  const [showEmail,setShowEmail] = useState("");
+
   return (
     <div>
-      <Tippy
+      {/* <Tippy
         content={
           <span className="toolTipContent">
             <h4>mwallis5110@gmail.com</h4>
           </span>
         }
         visible={visible}
-        onClickOutside={hide}
-      >
-        <div onMouseEnter={visible ? hide : show}>
-          <a id="emailAddress" href="mailto: mwallis5110@gmail.com">
-            Email Me
-          </a>
-        </div>
-      </Tippy>
+        onMouseEnter={show}
+      > */}
+      <a href="mailto: mwallis5110@gmail.com">Email Me</a>
+        {/* <div onMouseEnter={visible ? hide : show} onMouseLeave={hide}>
+          
+        </div> */}
+      {/* </Tippy> */}
     </div>
   );
 }

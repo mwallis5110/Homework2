@@ -1,23 +1,25 @@
 .dropMenu {
-    display: none;
-    padding:10px;
+  display: none;
+  padding: 10px;
 }
 .dropMenu-clicked {
-    width: 300px;
-    position: absolute;
-    top: 80px;
-    list-style: none;
-    text-align: start;
-    background: none;
+  width: 300px;
+  position: absolute;
+  list-style: none;
+  text-align: start;
+  background: none;
+  margin-top: 20px;
 }
 
 .contactItem {
-    text-align: center;
-    cursor: pointer;
-    list-style: none;
-    text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  list-style: none;
+  text-decoration: none;
 }
 
-.contactItem:hover {
-    /* background: #5cabff; */
+.contactItem a {
+  text-decoration: none;
+  color: #b8d8d8;
+  font-size: 80%;
 }
