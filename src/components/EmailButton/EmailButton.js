@@ -19,11 +19,11 @@ export default function EmailButton() {
         visible={visible}
         onClickOutside={hide}
       >
-        <button onMouseEnter={visible ? hide : show}>
+        <div onMouseEnter={visible ? hide : show}>
           <a id="emailAddress" href="mailto: mwallis5110@gmail.com">
             Email Me
           </a>
-        </button>
+        </div>
       </Tippy>
     </div>
   );

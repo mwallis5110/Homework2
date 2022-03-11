@@ -3,6 +3,8 @@
 }
 
 #link {
+  background: none;
+  border: none;
   font-size: 35px;
   margin-right: 50px;
   padding: 1rem 2rem;

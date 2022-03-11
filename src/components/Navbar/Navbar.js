@@ -8,28 +8,10 @@ import "./Navbar.css";
 
 export default function TopNavbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
 
-  const handleClick = () => setClick(!click);
   const closeMobileMenu = () => {
     setClick(false);
   };
-
-  // const onMouseEnter = () => {
-  //   if(window.innerWidth < 960) {
-  //     setDropdown(false)
-  //   } else {
-  //     setDropdown(true)
-  //   }
-  // }
-
-  // const onMouseLeave = () => {
-  //   if (window.innerWidth < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(false);
-  //   }
-  // };
 
   return (
     <div className="navWrapper">
@@ -46,7 +28,6 @@ export default function TopNavbar() {
       <button id="link" onClick={closeMobileMenu}>
         <Dropdown className={click ? "contactMenu active" : "contactMenu"} />
       </button>
-      {dropdown && <Dropdown />}
     </div>
   );
 }
