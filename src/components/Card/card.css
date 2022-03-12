@@ -35,12 +35,11 @@
   font-size: 105%;
 }
 
-.linkButtons {
+.buttons {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: 10px;
 }
 
 .repo {
@@ -51,12 +50,14 @@
   padding: 8px 32px;
   text-align: center;
   text-decoration: none;
+  color: black;
   font-size: 24px;
   font-family: "Merriweather", serif;
 }
 
 .repo:hover {
   background-color: #4caf50;
+  color: white;
   cursor: pointer;
 }
 
@@ -67,8 +68,9 @@
   border-radius: 30px;
   padding: 10px 32px;
   text-align: center;
-  text-decoration: none;
   font-size: 24px;
+  text-decoration: none;
+
   color: black;
   font-family: "Merriweather", serif;
 }

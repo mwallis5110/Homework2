@@ -18,9 +18,11 @@ export function JSCard() {
           <h2 className="cardTitle">{JSProject.cardTitle}</h2>
           <p className="cardDescription">{JSProject.cardDescription}</p>
         </div>
-        <div className="linkButtons">
-          <p className="projectLink">{JSProject.link}</p>
-          <p className="repo">{JSProject.repo}</p>
+        <div className="buttons">
+          <a href={JSProject.link} className="projectLink">
+            Deployed Project
+          </a>
+          <a href={JSProject.repo} className="repo">Code Repository</a>
         </div>
       </div>
     );
@@ -36,9 +38,24 @@ export function ReactCard() {
           <h2 className="cardTitle">{ReactProject.cardTitle}</h2>
           <p className="cardDescription">{ReactProject.cardDescription}</p>
         </div>
-        <div className="linkButtons">
-          <button className="projectLink">{ReactProject.link}</button>
-          <button className="repo">{ReactProject.repo}</button>
+        <div className="buttons">
+          <a
+            href={ReactProject.link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="projectLink"
+          >
+            Deployed Project
+          </a>
+
+          <a
+            href={ReactProject.repo}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="repo"
+          >
+            Code Repository
+          </a>
         </div>
       </div>
     );
@@ -58,9 +75,23 @@ export function RelationalCard() {
           <h2 className="cardTitle">{RelationalProject.cardTitle}</h2>
           <p className="cardDescription">{RelationalProject.cardDescription}</p>
         </div>
-        <div className="linkButtons">
-          <button className="projectLink">{RelationalProject.link}</button>
-          <button className="repo">{RelationalProject.repo}</button>
+        <div className="buttons">
+          <a
+            href={RelationalProject.link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="projectLink"
+          >
+            Deployed Project
+          </a>
+          <a
+            href={RelationalProject.repo}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="repo"
+          >
+            Code Repository
+          </a>
         </div>
       </div>
     );
@@ -82,9 +113,23 @@ export function NonRelationalCard() {
             {NonRelationalProject.cardDescription}
           </p>
         </div>
-        <div className="linkButtons">
-          <button className="projectLink">{NonRelationalProject.link}</button>
-          <button className="repo">{NonRelationalProject.repo}</button>
+        <div className="buttons">
+          <a
+            href={NonRelationalProject.link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="projectLink"
+          >
+            Deployed Project
+          </a>
+          <a
+            href={NonRelationalProject.repo}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="repo"
+          >
+            Code Repository
+          </a>
         </div>
       </div>
     );
@@ -100,9 +145,23 @@ export function JavaCard() {
           <h2 className="cardTitle">{JavaProject.cardTitle}</h2>
           <p className="cardDescription">{JavaProject.cardDescription}</p>
         </div>
-        <div className="linkButtons">
-          <button className="projectLink">{JavaProject.link}</button>
-          <button className="repo">{JavaProject.repo}</button>
+        <div className="buttons">
+          <a
+            href={JavaProject.link}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="projectLink"
+          >
+            Deployed Project
+          </a>
+          <a
+            href={JavaProject.repo}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="repo"
+          >
+            Code Repository
+          </a>
         </div>
       </div>
     );
