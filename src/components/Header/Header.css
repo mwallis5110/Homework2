@@ -7,14 +7,14 @@
 }
 
 .header h1 {
-  color: rgb(214, 214, 214);
+  color: #B8D8D8;
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
   font-size: 65px;
 }
 
 .subheader {
-  color: rgb(214, 214, 214);
+  color: #B8D8D8;
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
 }

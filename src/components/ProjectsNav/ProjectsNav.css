@@ -1,0 +1,20 @@
+.scrollToProject {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scrollToProject li {
+    margin-top: 15px;
+    color: #B8D8D8;
+    font-size: 25px;
+    list-style-type: none;
+    cursor: pointer;
+  background: linear-gradient(-184deg, #005cfa, #050505 );
+    border-radius: 20px;
+    padding: 8px;
+    font-family: "Merriweather", serif;
+}
+
+.scrollToProject li:hover {
+    transform: scale(1.1);
+}
