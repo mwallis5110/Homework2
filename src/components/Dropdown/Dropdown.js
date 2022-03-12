@@ -22,7 +22,7 @@ export default function Dropdown() {
       </div>
       <div
         className={click ? "dropMenu-clicked" : "dropMenu"}
-        // onMouseLeave={closeMobileMenu}
+        onMouseLeave={closeMobileMenu}
       >
         <ul>
           <li className="contactItem" onClick={closeMobileMenu}>
