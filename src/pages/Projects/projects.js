@@ -10,7 +10,7 @@ import {
 
 import "./projects.css";
 
-export default function Projects(props) {
+export default function Projects() {
   return (
     <div className="projectsWrapper">
       <h1 className="myWork">My Work</h1>

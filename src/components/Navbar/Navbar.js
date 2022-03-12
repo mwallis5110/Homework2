@@ -16,16 +16,16 @@ export default function TopNavbar() {
   return (
     <div className="navWrapper">
       <Link to="/">
-        <button id="link" onClick={closeMobileMenu}>
+        <button className="navLink" onClick={closeMobileMenu}>
           About Me
         </button>
       </Link>
       <Link to="/projects">
-        <button id="link" onClick={closeMobileMenu}>
+        <button className="navLink" onClick={closeMobileMenu}>
           My Work
         </button>
       </Link>
-      <button id="link" onClick={closeMobileMenu}>
+      <button className="navLink" onClick={closeMobileMenu}>
         <Dropdown className={click ? "contactMenu active" : "contactMenu"} />
       </button>
     </div>

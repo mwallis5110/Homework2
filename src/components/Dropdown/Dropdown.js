@@ -22,16 +22,24 @@ export default function Dropdown() {
       </div>
       <div
         className={click ? "dropMenu-clicked" : "dropMenu"}
-        onMouseLeave={closeMobileMenu}
+        // onMouseLeave={closeMobileMenu}
       >
         <ul>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <a href="https://www.linkedin.com/in/masonwallis/">
+            <a
+              href="https://www.linkedin.com/in/masonwallis/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               LinkedIn
             </a>
           </li>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <a href="https://github.com/mwallis5110">
+            <a
+              href="https://github.com/mwallis5110"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               Github
             </a>
           </li>

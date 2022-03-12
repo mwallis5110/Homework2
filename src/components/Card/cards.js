@@ -18,8 +18,8 @@ export function JSCard() {
           <h2 className="cardTitle">{JSProject.cardTitle}</h2>
           <p className="cardDescription">{JSProject.cardDescription}</p>
         </div>
-        <div className="buttons">
-          <p className="link">{JSProject.link}</p>
+        <div className="linkButtons">
+          <p className="projectLink">{JSProject.link}</p>
           <p className="repo">{JSProject.repo}</p>
         </div>
       </div>
@@ -36,8 +36,8 @@ export function ReactCard() {
           <h2 className="cardTitle">{ReactProject.cardTitle}</h2>
           <p className="cardDescription">{ReactProject.cardDescription}</p>
         </div>
-        <div className="buttons">
-          <button className="link">{ReactProject.link}</button>
+        <div className="linkButtons">
+          <button className="projectLink">{ReactProject.link}</button>
           <button className="repo">{ReactProject.repo}</button>
         </div>
       </div>
@@ -58,8 +58,8 @@ export function RelationalCard() {
           <h2 className="cardTitle">{RelationalProject.cardTitle}</h2>
           <p className="cardDescription">{RelationalProject.cardDescription}</p>
         </div>
-        <div className="buttons">
-          <button className="link">{RelationalProject.link}</button>
+        <div className="linkButtons">
+          <button className="projectLink">{RelationalProject.link}</button>
           <button className="repo">{RelationalProject.repo}</button>
         </div>
       </div>
@@ -82,8 +82,8 @@ export function NonRelationalCard() {
             {NonRelationalProject.cardDescription}
           </p>
         </div>
-        <div className="buttons">
-          <button className="link">{NonRelationalProject.link}</button>
+        <div className="linkButtons">
+          <button className="projectLink">{NonRelationalProject.link}</button>
           <button className="repo">{NonRelationalProject.repo}</button>
         </div>
       </div>
@@ -100,8 +100,8 @@ export function JavaCard() {
           <h2 className="cardTitle">{JavaProject.cardTitle}</h2>
           <p className="cardDescription">{JavaProject.cardDescription}</p>
         </div>
-        <div className="buttons">
-          <button className="link">{JavaProject.link}</button>
+        <div className="linkButtons">
+          <button className="projectLink">{JavaProject.link}</button>
           <button className="repo">{JavaProject.repo}</button>
         </div>
       </div>

@@ -1,7 +1,5 @@
 import React from "react";
-import { Row, Col } from "react-bootstrap";
 import Headshot from "../../../src/images/Headshot2.png";
-
 
 import "./about.css";
 
@@ -22,7 +20,7 @@ export default function About() {
         <h5>
           I'm currently searching for an entry-level role within an established
           company.
-        </h5>{" "}
+        </h5>
         <p>
           As a recent coding bootcamp graduate, I'm excited to make meaningful
           contributions to my team starting on day one.

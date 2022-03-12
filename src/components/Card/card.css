@@ -35,7 +35,7 @@
   font-size: 105%;
 }
 
-.buttons {
+.linkButtons {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 
-.link {
+.projectLink {
   width: 95%;
   margin: 2.5%;
   border: 4px solid #008cba;
@@ -73,12 +73,12 @@
   font-family: "Merriweather", serif;
 }
 
-.link:hover {
+.projectLink:hover {
   background-color: #008cba;
   cursor: pointer;
   color: white;
 }
 
-.link:empty {
+.projectLink:empty {
   display: none;
 }

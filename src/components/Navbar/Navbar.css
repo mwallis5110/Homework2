@@ -2,7 +2,7 @@
   float: right;
 }
 
-#link {
+.navLink {
   background: none;
   border: none;
   font-size: 35px;
@@ -14,7 +14,7 @@
 }
 
 /* Hover effects */
-#link:hover {
+.navLink:hover {
   background-color: #EEF5DB;
   color: #4F6367;
   border-radius: 50px;
