@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AiFillCaretDown, AiOutlineCopy, AiOutlineSend } from "react-icons/ai";
+import { AiFillCaretDown } from "react-icons/ai";
 
 import EmailButton from "../EmailButton/EmailButton";
 import Resume from "../../images/Mason_Wallis_Resume.pdf";

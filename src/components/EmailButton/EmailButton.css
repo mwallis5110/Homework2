@@ -13,7 +13,7 @@
   color: #005cfa;
   text-decoration: none;
   font-size: 100%;
-border-radius: 10px;
+  border-radius: 10px;
 }
 
 .emailButton:hover {
@@ -21,8 +21,3 @@ border-radius: 10px;
   background-color: #005cfa;
 }
 
-/* .buttonsDiv a {
-  width: 40%;
-  color: #005cfa;
-  text-decoration: none;
-} */

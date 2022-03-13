@@ -13,13 +13,15 @@ export default function EmailButton() {
     <div className="buttonWrapper">
       <p className="emailAddress">mwallis5110@gmail.com</p>
       <div className="buttonsDiv">
-        <CopyToClipboard
-          text={value}
-          onCopy={() => setCopied(true)}
-          className="emailButton"
-        >
-          <AiOutlineCopy className="emailButton" />
-        </CopyToClipboard>
+        <div className="emailButton">
+          <CopyToClipboard
+            text={value}
+            onCopy={() => setCopied(true)}
+           
+          >
+            <AiOutlineCopy />
+          </CopyToClipboard>
+        </div>
 
         <a href="mailto:mwallis5110@gmail.com" className="emailButton">
           <AiOutlineSend />
