@@ -1,13 +1,28 @@
-.copyEmailButton {
-    text-overflow: initial;
-     text-decoration: none;
+.buttonsDiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.emailAddress {
+  color: #005cfa;
+  font-size: 75%;
+}
+
+.emailButton {
+  width: 40%;
+  color: #005cfa;
+  text-decoration: none;
+  font-size: 100%;
+border-radius: 10px;
+}
+
+.emailButton:hover {
   color: #b8d8d8;
-  font-size: 50%;
-  margin-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  border-radius: 20px;
   background-color: #005cfa;
 }
+
+/* .buttonsDiv a {
+  width: 40%;
+  color: #005cfa;
+  text-decoration: none;
+} */

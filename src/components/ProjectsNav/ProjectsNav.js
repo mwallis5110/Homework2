@@ -7,7 +7,7 @@ export default function ProjectsNav() {
   return (
     <ul className="scrollToProject">
       <li
-        className="javascriptCards"
+        className="cardsRow"
         onClick={() => {
           const anchor = document.querySelector("#jsId");
           anchor.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -17,7 +17,7 @@ export default function ProjectsNav() {
         <AiFillCaretDown />
       </li>
       <li
-        className="reactCards"
+        className="cardsRow"
         onClick={() => {
           const anchor = document.querySelector("#reactId");
           anchor.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -27,7 +27,7 @@ export default function ProjectsNav() {
         <AiFillCaretDown />
       </li>
       <li
-        className="relationalCards"
+        className="cardsRow"
         onClick={() => {
           const anchor = document.querySelector("#relationalId");
           anchor.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -37,17 +37,17 @@ export default function ProjectsNav() {
         <AiFillCaretDown />
       </li>
       <li
-        className="nonrelationalCards"
+        className="cardsRow"
         onClick={() => {
           const anchor = document.querySelector("#nonrelationalId");
           anchor.scrollIntoView({ behavior: "smooth", block: "start" });
         }}
       >
-        NonRelational DB Projects
+        Nonrelational DB Projects
         <AiFillCaretDown />
       </li>
       <li
-        className="javaCards"
+        className="cardsRow"
         onClick={() => {
           const anchor = document.querySelector("#javaId");
           anchor.scrollIntoView({ behavior: "smooth", block: "start" });
