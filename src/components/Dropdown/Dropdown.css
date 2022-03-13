@@ -13,14 +13,46 @@
 }
 
 .contactItem {
+  width: 100%;
   text-align: center;
   cursor: pointer;
   list-style: none;
   text-decoration: none;
 }
 
-.contactItem a {
+.dropdownButton {
+  width: 100%;
   text-decoration: none;
   color: #b8d8d8;
   font-size: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  background-color: #005cfa;
+}
+
+.dropdownButton:hover {
+  background-color: #b8d8d8;
+  color: #005cfa;
+}
+
+.emailDropdown {
+  /* display: inline-flex; */
+  list-style-type: none;
+  text-decoration: none;
+  color: #b8d8d8;
+  font-size: 60%;
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 20px;
+  background-color: #005cfa;
+}
+
+.emailIcon {
+  margin-top: 5px;
 }

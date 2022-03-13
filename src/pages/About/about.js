@@ -7,30 +7,29 @@ export default function About() {
   return (
     <div className="aboutWrapper">
       <h1 className="aboutMe">&lt;Hey There, I'm Mason&gt;</h1>
-      <div>
+      <div className="mainContents">
         <img src={Headshot} className="headshot" alt="A pic of me" rounded />
-        <h5 className="aboutText">
-          I'm a full-stack web developer with a background in marketing and
-          digital advertising.
-        </h5>
-        <p>
-          My goal is to help you refine your vision and website idea, then craft
-          it to your specifications.
-        </p>
-        <h5>
-          I'm currently searching for an entry-level role within an established
-          company.
-        </h5>
-        <p>
-          As a recent coding bootcamp graduate, I'm excited to make meaningful
-          contributions to my team starting on day one.
-        </p>
-        <p>
-          I'm also taking on entry-level projects to build up my resumé. I'm
-          well-versed in the MERN stack, and fluent in HTML5, CSS3, Javascript,
-          React, Bootstrap, Express.js, NodeJS, MongoDB, SQL, MySQL, NoSQL and
-          GraphQL.
-        </p>
+        <div className="aboutText">
+          <h4>
+            I'm a full-stack web developer with a background in marketing and
+            digital advertising.
+          </h4>
+          <br />
+          <br />
+          <h4>
+            I'm currently searching for a full-stack or software engineering
+            role within an established company. As a recent programming bootcamp
+            graduate, I'm excited to make meaningful contributions to my team
+            starting on day one.
+          </h4>
+          <br />
+          <br />
+          <h4>
+            I'm also taking on interesting side projects of all sizes. My goal
+            is to help you refine your vision and website idea, then craft it to
+            your specifications.
+          </h4>
+        </div>
       </div>
     </div>
   );

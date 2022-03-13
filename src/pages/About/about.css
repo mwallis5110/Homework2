@@ -1,5 +1,13 @@
 .aboutWrapper {
-  color: rgb(214, 214, 214)
+  color: #B8D8D8;
+  margin-left: 25px;
+  margin-right: 25px;
+  /* height: 100vh;
+  overflow: hidden; */
+}
+
+.mainContents {
+  display: flex;
 }
 
 .aboutMe {
@@ -12,13 +20,16 @@
 .headshot {
   margin-left: 10px;
   padding: 0px;
-  width: 400px;
+  width: 500px;
 }
 
 .aboutText {
   margin-top: 30px;
-  font-size: 25px;
   font-family: "Merriweather", serif;
   line-height: 2;
   text-align: center;
+}
+
+.aboutText h4 {
+  line-height: 1.5;
 }

@@ -1,31 +1,24 @@
 import React, { useState } from "react";
-import Tippy from "@tippyjs/react";
-import "tippy.js/dist/tippy.css";
+import { AiOutlineCopy, AiOutlineSend } from "react-icons/ai";
+
+import { CopyToClipboard } from "react-copy-to-clipboard";
+
+import "./EmailButton.css";
 
 export default function EmailButton() {
-  //State for Tippy tooltip
-  const [visible, setVisible] = useState(false);
-  const show = () => setVisible(true);
-  const hide = () => setVisible(false);
-
-  const [showEmail,setShowEmail] = useState("");
+  const value = "mwallis5110@gmail.com";
+  const [copied, setCopied] = useState("");
 
   return (
-    <div>
-      {/* <Tippy
-        content={
-          <span className="toolTipContent">
-            <h4>mwallis5110@gmail.com</h4>
-          </span>
-        }
-        visible={visible}
-        onMouseEnter={show}
-      > */}
-      <a href="mailto: mwallis5110@gmail.com">Email Me</a>
-        {/* <div onMouseEnter={visible ? hide : show} onMouseLeave={hide}>
-          
-        </div> */}
-      {/* </Tippy> */}
+    <div className="buttonWrapper">
+      <span>mwallis5110@gmail.com</span>
+      <div className="copyButton">
+        <CopyToClipboard text={value} onCopy={() => setCopied(true)}>
+          <AiOutlineCopy />
+        </CopyToClipboard>
+
+        {copied ? <span>Copied!</span> : null}
+      </div>
     </div>
   );
 }

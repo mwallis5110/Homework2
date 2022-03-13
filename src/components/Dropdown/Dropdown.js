@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {AiFillCaretDown} from "react-icons/ai"
+import { AiFillCaretDown, AiOutlineCopy, AiOutlineSend } from "react-icons/ai";
 
 import EmailButton from "../EmailButton/EmailButton";
 import Resume from "../../images/Mason_Wallis_Resume.pdf";
@@ -12,8 +12,11 @@ export default function Dropdown() {
   const handleClick = () => setClick(!click);
 
   const closeMobileMenu = () => {
+    // setTimeout(3300);
     setClick(false);
   };
+
+  const [visible, setVisible] = useState(false);
 
   return (
     <div className="dropdownWrapper">
@@ -27,6 +30,7 @@ export default function Dropdown() {
         <ul>
           <li className="contactItem" onClick={closeMobileMenu}>
             <a
+              className="dropdownButton"
               href="https://www.linkedin.com/in/masonwallis/"
               target="_blank"
               rel="noreferrer noopener"
@@ -36,6 +40,7 @@ export default function Dropdown() {
           </li>
           <li className="contactItem" onClick={closeMobileMenu}>
             <a
+              className="dropdownButton"
               href="https://github.com/mwallis5110"
               target="_blank"
               rel="noreferrer noopener"
@@ -44,12 +49,23 @@ export default function Dropdown() {
             </a>
           </li>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <a href={Resume} download>
+            <a className="dropdownButton" href={Resume} download>
               My Resumé
             </a>
           </li>
           <li className="contactItem" onClick={closeMobileMenu}>
-            <EmailButton />
+            
+            <div
+              className="emailText"
+              onMouseEnter={() => setVisible(true)}
+              onMouseLeave={() => setVisible(false)}
+            >
+              {visible ? (
+                <div className="dropdownButton"><EmailButton /></div>
+              ) : (
+                <span className="dropdownButton">Email Me</span>
+              )}
+            </div>
           </li>
         </ul>
       </div>
