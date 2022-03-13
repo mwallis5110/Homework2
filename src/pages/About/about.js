@@ -26,7 +26,7 @@ export default function About() {
           <br />
           <h4>
             I'm also taking on interesting side projects of all sizes. My goal
-            is to help you refine your vision and website idea, then craft it to
+            is to help you refine your vision and then craft it to
             your specifications.
           </h4>
         </div>
