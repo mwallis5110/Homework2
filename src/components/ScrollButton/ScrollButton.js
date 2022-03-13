@@ -5,8 +5,10 @@ import { AiFillCaretUp } from "react-icons/ai";
 import "./ScrollButton.css";
 
 export default function ScrollButton() {
+  //"Scroll to top" button for Projects page
   const [visible, setVisible] = useState(false);
 
+  //Makes button visible after scrolling down 300px
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop;
     if (scrolled > 300) {

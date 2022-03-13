@@ -21,6 +21,7 @@ export default function Projects() {
         working on
       </p>
       <div className="cardWrapper">
+        {/* Imports each card row component to its respective position */}
         <ScrollButton />
         <div className="JSSection">
           <div className="line"></div>

@@ -9,6 +9,7 @@ import {
 
 import "./card.css";
 
+//Each separate array is imported from projectData.js, and the data is rendered as individual cards
 export function JSCard() {
   return JSArray.map((JSProject) => {
     return (

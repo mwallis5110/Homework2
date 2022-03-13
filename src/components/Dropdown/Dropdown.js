@@ -7,15 +7,17 @@ import Resume from "../../images/Mason_Wallis_Resume.pdf";
 import "./Dropdown.css";
 
 export default function Dropdown() {
+  //State to determine whether the dropdown menu is displayed(if true)
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
 
+  //Used to close menu if user hovers outside of it
   const closeMobileMenu = () => {
-    // setTimeout(3300);
     setClick(false);
   };
 
+  //State for displaying smaller email sub-dropdown
   const [visible, setVisible] = useState(false);
 
   return (
