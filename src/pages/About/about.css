@@ -16,6 +16,7 @@
   font-family: "Special Elite";
   font-size: 400%;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .headshot {
@@ -29,6 +30,7 @@
   font-family: "Merriweather", serif;
   line-height: 2;
   text-align: center;
+  
 }
 
 #textBlock {

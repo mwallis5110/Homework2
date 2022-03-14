@@ -19,7 +19,7 @@ export function JSCard() {
           <h2 className="cardTitle">{JSProject.cardTitle}</h2>
           <p className="cardDescription">{JSProject.cardDescription}</p>
         </div>
-        <div className="buttons">
+        <div className="cardButtons">
           <a href={JSProject.link} className="projectLink">
             Deployed Project
           </a>
@@ -39,7 +39,7 @@ export function ReactCard() {
           <h2 className="cardTitle">{ReactProject.cardTitle}</h2>
           <p className="cardDescription">{ReactProject.cardDescription}</p>
         </div>
-        <div className="buttons">
+        <div className="cardButtons">
           <a
             href={ReactProject.link}
             target="_blank"
@@ -76,7 +76,7 @@ export function RelationalCard() {
           <h2 className="cardTitle">{RelationalProject.cardTitle}</h2>
           <p className="cardDescription">{RelationalProject.cardDescription}</p>
         </div>
-        <div className="buttons">
+        <div className="cardButtons">
           <a
             href={RelationalProject.link}
             target="_blank"
@@ -114,7 +114,7 @@ export function NonRelationalCard() {
             {NonRelationalProject.cardDescription}
           </p>
         </div>
-        <div className="buttons">
+        <div className="cardButtons">
           <a
             href={NonRelationalProject.link}
             target="_blank"
@@ -146,7 +146,7 @@ export function JavaCard() {
           <h2 className="cardTitle">{JavaProject.cardTitle}</h2>
           <p className="cardDescription">{JavaProject.cardDescription}</p>
         </div>
-        <div className="buttons">
+        <div className="cardButtons">
           <a
             href={JavaProject.link}
             target="_blank"
