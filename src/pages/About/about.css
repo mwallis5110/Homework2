@@ -2,8 +2,9 @@
   color: #B8D8D8;
   margin-left: 25px;
   margin-right: 25px;
-  /* height: 100vh;
-  overflow: hidden; */
+  /* margin-bottom: 1000px; */
+  /* height: 100vh; */
+  overflow: hidden;
 }
 
 .mainContents {
@@ -11,7 +12,7 @@
 }
 
 .aboutMe {
-  margin-top: 25px;
+  margin-top: 15px;
   font-family: "Special Elite";
   font-size: 400%;
   text-align: center;
@@ -24,12 +25,13 @@
 }
 
 .aboutText {
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: "Merriweather", serif;
   line-height: 2;
   text-align: center;
 }
 
-.aboutText h4 {
+#textBlock {
   line-height: 1.5;
+  font-size: 25px;
 }

@@ -5,7 +5,7 @@ import "./Header.css";
 export default function Header() {
   
   return (
-    <div className="header">
+    <div className="headerWrapper">
       <div className="leftSide">
         <h1 className="myName">Mason Wallis</h1>
         <h3 className="subheader">&lt;Full Stack Developer | Austin, TX&gt;</h3>

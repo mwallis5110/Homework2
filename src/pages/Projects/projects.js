@@ -60,14 +60,14 @@ export default function Projects() {
             <NonRelationalCard />
           </div>
         </div>
-        <div className="JavaSection">
+        {/* <div className="JavaSection">
           <div className="line"></div>
           <h2 className="rowTitle" id="javaId">Java</h2>
           <div className="Row">
             <JavaCard />
           </div>
         </div>
-        <div className="line"></div>
+        <div className="line"></div> */}
       </div>
     </div>
   );
