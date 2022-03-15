@@ -1,13 +1,17 @@
 .headerWrapper {
-  display: flex;
+  display: grid;
+  /* width: 100vw; */
+  grid-template-columns: 1.4fr 2fr;
+  grid-template-rows: 3fr;
+  grid-template-areas: "leftSide rightSide rightSide";
   padding-left: 10px;
   padding-top: 15px;
   font-family: "Special Elite";
-  background: linear-gradient(-184deg, #005cfa, #050505 );
+  background: linear-gradient(-184deg, #005cfa, #050505);
 }
 
 .myName {
-  color: #B8D8D8;
+  color: #b8d8d8;
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
   font-size: 65px;
@@ -15,16 +19,48 @@
 }
 
 .subheader {
-  color: #B8D8D8;
+  color: #b8d8d8;
   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black,
     2px 2px 0 black;
 }
 
 .leftSide {
-  width: 35%;
+  grid-area: leftSide;
 }
 
 .rightSide {
-  width: 65%;
+  grid-area: rightSide;
   margin-top: 15px;
+}
+
+@media screen and (max-width: 1012px) {
+  .headerWrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.8fr 1fr;
+    grid-template-areas: "leftSide" "rightSide";
+    padding-left: 0px;
+    margin-right: 10px;
+  }
+
+  .leftSide {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 902px) {
+  .leftSide {
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .headerWrapper {
+    grid-template-rows: 0.5fr 1fr;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .leftSide {
+    margin-bottom: 25px;
+  }
 }

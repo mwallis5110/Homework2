@@ -1,16 +1,21 @@
 .navWrapper {
-  float: right;
+  /* display: flex; */
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-area: "navLink";
+  white-space: nowrap;
 }
 
 .navLink {
   background: none;
   border: none;
   font-size: 35px;
-  margin-right: 50px;
   padding: 1rem 2rem;
   color: #B8D8D8;
   font-weight: bold;
   font-family: "Merriweather", serif;
+  /* margin-right: 40px; */
+  white-space: nowrap;
 }
 
 /* Hover effects */
@@ -23,9 +28,14 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 480px) {
-  #link {
-    font-size: 25px;
-    text-align: center;
+@media screen and (max-width: 1245px) {
+  .navWrapper {
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 462px) {
+  .navWrapper {
+    margin-top: 10px;
   }
 }

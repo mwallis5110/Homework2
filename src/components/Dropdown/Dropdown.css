@@ -1,6 +1,7 @@
 .dropMenu {
   display: none;
   padding: 10px;
+  
 }
 .dropMenu-clicked {
   width: 300px;
