@@ -12,12 +12,11 @@
   width: 40%;
   color: #005cfa;
   text-decoration: none;
-  font-size: 100%;
   border-radius: 10px;
+  padding-top: 10px;
 }
 
 .emailButton:hover {
   color: #b8d8d8;
   background-color: #005cfa;
 }
-

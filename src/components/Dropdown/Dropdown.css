@@ -1,14 +1,12 @@
 .dropMenu {
   display: none;
-  padding: 10px;
 }
+
 .dropMenu-clicked {
-  width: 300px;
+  width: 320px;
   position: absolute;
   list-style: none;
-  text-align: start;
-  background: none;
-  margin-top: 20px;
+  margin-top: 10px;
   z-index: 2;
 }
 
@@ -27,7 +25,6 @@
 }
 
 .dropdownButton {
-  width: 100%;
   text-decoration: none;
   color: #b8d8d8;
   font-size: 80%;
@@ -51,8 +48,4 @@
   padding-bottom: 5px;
   border-radius: 20px;
   background-color: #005cfa;
-}
-
-.emailIcon {
-  margin-top: 5px;
 }

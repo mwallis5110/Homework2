@@ -20,10 +20,22 @@ export function JSCard() {
           <p className="cardDescription">{JSProject.cardDescription}</p>
         </div>
         <div className="cardButtons">
-          <a href={JSProject.link} className="projectLink">
+          <a
+            href={JSProject.link}
+            className="projectLink"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Deployed Project
           </a>
-          <a href={JSProject.repo} className="repo">Code Repository</a>
+          <a
+            href={JSProject.repo}
+            className="repo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Code Repository
+          </a>
         </div>
       </div>
     );

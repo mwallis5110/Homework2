@@ -11,13 +11,9 @@
     z-index: 1;
     border: none;
     cursor: pointer;
-    /* margin-top: 10px; */
     animation: scrollTop 0.5s alternate ease infinite;
 }
 
-.upArrow {
-    margin-bottom: 5px;
-}
 
 @keyframes scrollTop {
     from{

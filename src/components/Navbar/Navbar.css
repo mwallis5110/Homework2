@@ -1,27 +1,18 @@
-.navWrapper {
-  /* display: flex; */
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-area: "navLink";
-  white-space: nowrap;
-}
-
 .navLink {
   background: none;
   border: none;
   font-size: 35px;
   padding: 1rem 2rem;
-  color: #B8D8D8;
+  color: #b8d8d8;
   font-weight: bold;
   font-family: "Merriweather", serif;
-  /* margin-right: 40px; */
   white-space: nowrap;
 }
 
 /* Hover effects */
 .navLink:hover {
-  background-color: #EEF5DB;
-  color: #4F6367;
+  background-color: #eef5db;
+  color: #4f6367;
   border-radius: 50px;
   opacity: 1;
   transition: 0.5s ease-out;
@@ -38,6 +29,4 @@
   .navWrapper {
     margin-top: 30px;
   }
-
-  
 }

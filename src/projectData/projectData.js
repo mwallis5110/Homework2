@@ -5,6 +5,7 @@ import Note from "../images/note_taker.gif";
 import Nphase from "../images/nphase3.png";
 import Pet from "../images/pet-seeker.PNG";
 import PortfolioGen from "../images/portfolioGenerator.PNG";
+import PortfolioScreenshot from "../images/PortfolioScreenshot.PNG";
 
 export const JSArray = [
   {
@@ -33,7 +34,7 @@ export const ReactArray = [
     repo: "https://github.com/mwallis5110/Music_Portfolio",
   },
   {
-    cardImg: "",
+    cardImg: PortfolioScreenshot,
     cardTitle: "My Portfolio",
     cardDescription:
       "My personal portfolio, the website you're on right now. Built with ReactJS and NodeJS.",
@@ -54,7 +55,7 @@ export const RelationalArray = [
     cardImg: Chef,
     cardTitle: "Sous Chef",
     cardDescription:
-      "A full-stack web application that allows a user to browse a recipe library and save recipes to their own user homepage/dashboard. Uses NodeJS, Express.js, Handlebars, MySQL, and Sequelize.",
+      "A full-stack web application that allows a user to browse a recipe library and save recipes to their own user dashboard. Uses NodeJS, Express.js, Handlebars, MySQL, and Sequelize.",
     link: "https://sous-chef-project-2.herokuapp.com/",
     repo: "https://github.com/mwallis5110/Sous-Chef",
   },
