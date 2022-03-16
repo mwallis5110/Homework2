@@ -4,7 +4,7 @@
   font-family: "Special Elite";
   font-size: 400%;
   text-align: center;
-  color: #B8D8D8;
+  color: #b8d8d8;
 }
 
 .topText {
@@ -15,12 +15,7 @@
   line-height: 2;
   text-align: center;
   margin-bottom: 60px;
-  color: #B8D8D8;
-}
-
-.cardWrapper {
-  display: block;
-  text-align: center;
+  color: #b8d8d8;
 }
 
 .rowTitle {
@@ -30,14 +25,15 @@
   padding-left: 60px;
   font-family: "Special Elite";
   font-size: 400%;
-  color: #B8D8D8;
+  color: #b8d8d8;
 }
 
 .Row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(12rem, 25rem));
-  gap: 5rem;
-  justify-content: center;
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .line {
@@ -56,11 +52,18 @@
     circle farthest-side at center center,
     #ffffff 30%,
     #403a41 100%
-    
   );
   position: relative;
   width: 90%;
   right: 5%;
   left: 5%;
   height: 3px;
+}
+
+@media screen and (max-width: 972px) {
+  .Row {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "Row Row";
+  }
 }

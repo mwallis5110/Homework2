@@ -46,7 +46,7 @@ export default function ProjectsNav() {
         Nonrelational DB Projects
         <AiFillCaretDown />
       </li>
-      <li
+      {/* <li
         className="cardsRow"
         onClick={() => {
           const anchor = document.querySelector("#javaId");
@@ -55,7 +55,7 @@ export default function ProjectsNav() {
       >
         Java
         <AiFillCaretDown />
-      </li>
+      </li> */}
     </ul>
   );
 }

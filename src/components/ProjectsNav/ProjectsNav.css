@@ -1,9 +1,14 @@
 .scrollToProject {
-  display: flex;
-  justify-content: space-evenly;
+  margin: 0 auto;
+  display: grid;
+  /* Add one "1fr" for each new type of project */
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr;
+  grid-template-areas: "cardsRow cardsRow cardsRow cardsRow";
 }
 
 .cardsRow {
+  margin: 10px;
   margin-top: 15px;
   color: #b8d8d8;
   font-size: 25px;
@@ -13,8 +18,25 @@
   border-radius: 25px;
   padding: 8px;
   font-family: "Merriweather", serif;
+  white-space: nowrap;
 }
 
 .cardsRow:hover {
   transform: scale(1.1);
+}
+
+@media screen and (max-width: 1100px) {
+  .scrollToProject {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "cardsRow cardsRow";
+  }
+}
+
+@media screen and (max-width: 824px) {
+  .scrollToProject {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "cardsRow";
+  }
 }

@@ -64,7 +64,7 @@ export default function Projects() {
           <div className="line"></div>
           <h2 className="rowTitle" id="javaId">Java</h2>
           <div className="Row">
-            <JavaCard />
+            <JavaCard  />
           </div>
         </div>
         <div className="line"></div> */}

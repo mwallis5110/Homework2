@@ -1,6 +1,5 @@
 .headerWrapper {
   display: grid;
-  /* width: 100vw; */
   grid-template-columns: 1.4fr 2fr;
   grid-template-rows: 3fr;
   grid-template-areas: "leftSide rightSide rightSide";
