@@ -3,7 +3,6 @@
   margin-left: 25px;
   margin-right: 25px;
   margin-top: 10px;
-  overflow: hidden;
 }
 
 .mainContents {
@@ -41,10 +40,20 @@
   text-align: justify;
 }
 
+@media screen and (min-width: 1550px) {
+  .headshot {
+    min-width: 600px;
+    min-height: 600px;
+    margin: auto;
+  }
+  #textBlock {
+    line-height: 2;
+    font-size: 30px;
+  }
+}
 @media screen and (max-width: 1012px) {
   .mainContents {
     display: block;
-
   }
 
   .headshot {

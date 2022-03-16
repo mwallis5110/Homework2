@@ -16,7 +16,7 @@ export default function App() {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<About />} style={{overflow: "hidden"}}/>
           <Route path="/projects" element={<Projects />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>

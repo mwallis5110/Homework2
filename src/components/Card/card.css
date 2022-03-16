@@ -2,7 +2,7 @@
   background-color: white;
   height: 35rem;
   width: 23rem;
-  min-width: 25rem;
+  /* min-width: 25rem; */
   overflow: hidden;
   margin: 2rem;
   box-shadow: 0 0 10px lightslategray;

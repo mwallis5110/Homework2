@@ -1,7 +1,6 @@
 .dropMenu {
   display: none;
   padding: 10px;
-  
 }
 .dropMenu-clicked {
   width: 300px;
@@ -41,7 +40,6 @@
 }
 
 .emailDropdown {
-  /* display: inline-flex; */
   list-style-type: none;
   text-decoration: none;
   color: #b8d8d8;

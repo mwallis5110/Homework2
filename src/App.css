@@ -1,13 +1,9 @@
 .App {
   text-align: center;
-  background-color: #050505;
-  background-size: cover;
-  overflow-x: hidden;
-  /* overflow: hidden; */
+  /* background-color: #050505; */
+  /* background-size: cover; */
   /* height: 100vh; */
 }
-
-
 
 .App-logo {
   height: 40vmin;
@@ -38,4 +34,3 @@
 .topBar {
   display: flex;
 }
-
