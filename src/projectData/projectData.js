@@ -1,11 +1,12 @@
 import Chef from "../images/sous-chef.PNG";
-import Fitness from "../images/fitness_tracker.PNG";
 import Employee from "../images/employee_tracker.gif";
+import Fitness from "../images/fitness_tracker.PNG";
 import Note from "../images/note_taker.gif";
 import Nphase from "../images/nphase3.png";
 import Pet from "../images/pet-seeker.PNG";
 import PortfolioGen from "../images/portfolioGenerator.PNG";
 import PortfolioScreenshot from "../images/PortfolioScreenshot.PNG";
+import Team from "../images/team_cards.gif";
 
 export const JSArray = [
   {
@@ -15,6 +16,13 @@ export const JSArray = [
       "Pet Seeker is a user-friendly website that can help you find your new four-legged friend! Imports data from PetFinder and The Dog APIs",
     link: "https://brandonnorsworthy.github.io/pet-seeker/",
     repo: "https://github.com/mwallis5110/pet-seeker",
+  },
+  {
+    cardImg: Team,
+    cardTitle: "Team Profile Generator",
+    cardDescription:
+      "Uses Object-Oriented Programming principles to generate profile information cards for team members, then uses Jest for testing",
+    repo: "https://github.com/mwallis5110/Team_Profile_Generator_HW_10",
   },
   {
     cardImg: Note,
