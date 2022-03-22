@@ -6,6 +6,7 @@ import Nphase from "../images/nphase3.png";
 import Pet from "../images/pet-seeker.PNG";
 import PortfolioGen from "../images/portfolioGenerator.PNG";
 import PortfolioScreenshot from "../images/PortfolioScreenshot.PNG";
+import Snake from "../images/snake_game.gif";
 import Team from "../images/team_cards.gif";
 
 export const JSArray = [
@@ -87,6 +88,23 @@ export const NonRelationalArray = [
     link: "https://react-portfolio-generator-uta.herokuapp.com/",
     repo: "https://github.com/mwallis5110/React_Portfolio_Generator",
   },
+  {
+    cardImg: "",
+    cardTitle: "Social Media Site",
+    cardDescription:
+      "A GraphQL-based social media app. Under Construction",
+
+    // link: "https://react-portfolio-generator-uta.herokuapp.com/",
+    // repo: "https://github.com/mwallis5110/React_Portfolio_Generator",
+  },
 ];
 
-export const JavaArray = [];
+export const JavaArray = [
+  {
+    cardImg: Snake,
+    cardTitle: "Snake Game",
+    cardDescription: "A simple snake game built with Java.",
+
+    repo: "https://github.com/mwallis5110/java_snake_game",
+  },
+];
