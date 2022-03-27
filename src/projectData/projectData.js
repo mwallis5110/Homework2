@@ -9,6 +9,10 @@ import PortfolioScreenshot from "../images/PortfolioScreenshot.PNG";
 import Snake from "../images/snake_game.gif";
 import Team from "../images/team_cards.gif";
 
+
+//***** Make sure to include 'link: "",' for un-deployed projects *******
+
+
 export const JSArray = [
   {
     cardImg: Pet,
@@ -23,12 +27,14 @@ export const JSArray = [
     cardTitle: "Team Profile Generator",
     cardDescription:
       "Uses Object-Oriented Programming principles to generate profile information cards for team members, then uses Jest for testing",
+    link: "",
     repo: "https://github.com/mwallis5110/Team_Profile_Generator_HW_10",
   },
   {
     cardImg: Note,
     cardTitle: "ExpressJS Note Taker",
     cardDescription: "A note taking app built using ExpressJS.",
+    link: "https://unit-11-note-taker-32.herokuapp.com/notes",
     repo: "https://github.com/mwallis5110/Note_Taker_HW11",
   },
 ];
@@ -58,6 +64,7 @@ export const RelationalArray = [
     cardTitle: "Employee Database",
     cardDescription:
       "Using Node.js, MYSQL, and InquirerJS, this program manages a company's employee database via a command-line interface.",
+    link: "",  
     repo: "https://github.com/mwallis5110/Employee_Tracker_HW12",
   },
   {
@@ -104,7 +111,7 @@ export const JavaArray = [
     cardImg: Snake,
     cardTitle: "Snake Game",
     cardDescription: "A simple snake game built with Java.",
-
+    link: "",
     repo: "https://github.com/mwallis5110/java_snake_game",
   },
 ];
