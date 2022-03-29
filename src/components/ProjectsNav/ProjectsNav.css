@@ -2,9 +2,9 @@
   margin: 0 auto;
   display: grid;
   /* Add one "1fr" for each new type of project */
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr;
-  grid-template-areas: "cardsRow cardsRow cardsRow cardsRow";
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "cardsRow cardsRow cardsRow";
 }
 
 .cardsRow {
