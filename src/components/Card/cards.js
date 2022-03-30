@@ -12,12 +12,6 @@ import "./card.css";
 //Each separate array is imported from projectData.js, and the data is rendered as individual cards
 export function JSCard() {
 
-  // const nonDeployed = document.querySelectorAll(".projectLink");
-  // for(var i = 0; i < nonDeployed.length; i++) {
-  //   var deployedLink = nonDeployed[i];
-  //   (deployedLink.children === "") ? deployedLink.style.display = "none" : deployedLink.style.display = "block";
-  // }
-
   return JSArray.map((JSProject) => {
     return (
       <div className="card">

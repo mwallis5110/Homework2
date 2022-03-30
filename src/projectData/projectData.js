@@ -95,15 +95,15 @@ export const NonRelationalArray = [
     link: "https://react-portfolio-generator-uta.herokuapp.com/",
     repo: "https://github.com/mwallis5110/React_Portfolio_Generator",
   },
-  {
-    cardImg: "",
-    cardTitle: "Social Media Site",
-    cardDescription:
-      "A GraphQL-based social media app. Under Construction",
+  // {
+  //   cardImg: "",
+  //   cardTitle: "Social Media Site",
+  //   cardDescription:
+  //     "A GraphQL-based social media app. Under Construction",
 
-    // link: "https://react-portfolio-generator-uta.herokuapp.com/",
-    // repo: "https://github.com/mwallis5110/React_Portfolio_Generator",
-  },
+  //   // link: "https://react-portfolio-generator-uta.herokuapp.com/",
+  //   // repo: "https://github.com/mwallis5110/React_Portfolio_Generator",
+  // },
 ];
 
 export const JavaArray = [
