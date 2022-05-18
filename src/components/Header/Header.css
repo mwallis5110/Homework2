@@ -1,4 +1,6 @@
 .headerWrapper {
+  margin: 30px;
+  border-radius: 20px;
   display: grid;
   grid-template-columns: 1.4fr 2fr;
   grid-template-rows: 3fr;

@@ -6,7 +6,7 @@
   width: 23rem;
   margin: 2rem;
   box-shadow: 0 0 10px lightslategray;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .card:hover {
@@ -18,7 +18,7 @@
   height: 12rem;
   width: 95%;
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
   object-fit: cover;
   border: 1px solid black;
 }
